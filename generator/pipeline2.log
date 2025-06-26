@@ -1,0 +1,466 @@
+entered run
+entered run
+Synthesizing text: Hey Donald, what's the deal with Amazon Web Services? to media/generated/audio/peter_griffin_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-ocr-2025-06-19-16-18-56.mp3
+Audio duration: 2.40s
+Processed Peter Griffin: Hey Donald, what's the deal with Amazon Web Services? -> peter_griffin_1.mp3 (2.40s)
+Synthesizing text: Ah, Peter, AWS is a comprehensive cloud computing platform that provides a wide range of services for computing, storage, databases, analytics, machine learning, and more. to media/generated/audio/donald_duck_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-pyq-2025-06-19-16-19-02.mp3
+Audio duration: 12.72s
+Processed Donald Duck: Ah, Peter, AWS is a comprehensive cloud computing platform that provides a wide range of services for computing, storage, databases, analytics, machine learning, and more. -> donald_duck_2.mp3 (12.72s)
+Synthesizing text: Whoa, that's a lot of services! What's the most popular one? to media/generated/audio/peter_griffin_3.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-dhp-2025-06-19-16-19-07.mp3
+Audio duration: 3.16s
+Processed Peter Griffin: Whoa, that's a lot of services! What's the most popular one? -> peter_griffin_3.mp3 (3.16s)
+Synthesizing text: Well, Peter, one of the most popular services is S3, which is a simple storage service for storing and serving large amounts of data. to media/generated/audio/donald_duck_4.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-eol-2025-06-19-16-19-13.mp3
+Audio duration: 9.01s
+Processed Donald Duck: Well, Peter, one of the most popular services is S3, which is a simple storage service for storing and serving large amounts of data. -> donald_duck_4.mp3 (9.01s)
+Synthesizing text: S3? Sounds like a new kind of beer! to media/generated/audio/peter_griffin_5.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-kmz-2025-06-19-16-19-19.mp3
+Audio duration: 2.12s
+Processed Peter Griffin: S3? Sounds like a new kind of beer! -> peter_griffin_5.mp3 (2.12s)
+Synthesizing text: Ha! No, Peter, it's actually a very powerful storage service. to media/generated/audio/donald_duck_6.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-xtf-2025-06-19-16-19-24.mp3
+Audio duration: 4.68s
+Processed Donald Duck: Ha! No, Peter, it's actually a very powerful storage service. -> donald_duck_6.mp3 (4.68s)
+Synthesizing text: Okay, got it. What about security? Is it safe? to media/generated/audio/peter_griffin_7.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-dxs-2025-06-19-16-19-28.mp3
+Audio duration: 2.64s
+Processed Peter Griffin: Okay, got it. What about security? Is it safe? -> peter_griffin_7.mp3 (2.64s)
+Synthesizing text: Absolutely, Peter. AWS has a number of security features, including encryption, access controls, and monitoring. to media/generated/audio/donald_duck_8.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-kcs-2025-06-19-16-19-33.mp3
+Audio duration: 8.62s
+Processed Donald Duck: Absolutely, Peter. AWS has a number of security features, including encryption, access controls, and monitoring. -> donald_duck_8.mp3 (8.62s)
+Synthesizing text: That's great to hear. What about cost? Is it expensive? to media/generated/audio/peter_griffin_9.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-iyd-2025-06-19-16-19-38.mp3
+Audio duration: 3.11s
+Processed Peter Griffin: That's great to hear. What about cost? Is it expensive? -> peter_griffin_9.mp3 (3.11s)
+Synthesizing text: Not necessarily, Peter. AWS offers a pay-as-you-go pricing model, so you only pay for what you use. to media/generated/audio/donald_duck_10.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-pgx-2025-06-19-16-19-43.mp3
+Audio duration: 7.11s
+Processed Donald Duck: Not necessarily, Peter. AWS offers a pay-as-you-go pricing model, so you only pay for what you use. -> donald_duck_10.mp3 (7.11s)
+Synthesizing text: That sounds good. I think I'll give it a try. to media/generated/audio/peter_griffin_11.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-vwv-2025-06-19-16-19-48.mp3
+Audio duration: 2.04s
+Processed Peter Griffin: That sounds good. I think I'll give it a try. -> peter_griffin_11.mp3 (2.04s)
+Synthesizing text: Great decision, Peter! AWS is a fantastic platform. to media/generated/audio/donald_duck_12.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-vhy-2025-06-19-16-19-53.mp3
+Audio duration: 3.89s
+Processed Donald Duck: Great decision, Peter! AWS is a fantastic platform. -> donald_duck_12.mp3 (3.89s)
+Synthesizing text: Thanks for the advice, Donald. to media/generated/audio/peter_griffin_13.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-obs-2025-06-19-16-19-58.mp3
+Audio duration: 1.33s
+Processed Peter Griffin: Thanks for the advice, Donald. -> peter_griffin_13.mp3 (1.33s)
+Synthesizing text: No problem, Peter. to media/generated/audio/donald_duck_14.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-cmu-2025-06-19-16-20-10.mp3
+Audio duration: 1.38s
+Processed Donald Duck: No problem, Peter. -> donald_duck_14.mp3 (1.38s)
+Synthesizing text: So, what do you think is the future of cloud computing? to media/generated/audio/peter_griffin_15.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-ftc-2025-06-19-16-20-16.mp3
+Audio duration: 2.35s
+Processed Peter Griffin: So, what do you think is the future of cloud computing? -> peter_griffin_15.mp3 (2.35s)
+Synthesizing text: I think the future of cloud computing is going to be all about scalability and reliability. to media/generated/audio/donald_duck_16.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-dpp-2025-06-19-16-20-21.mp3
+Audio duration: 5.85s
+Processed Donald Duck: I think the future of cloud computing is going to be all about scalability and reliability. -> donald_duck_16.mp3 (5.85s)
+Synthesizing text: That's great to hear. And how do you see AWS fitting into that future? to media/generated/audio/peter_griffin_17.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-gxa-2025-06-19-16-20-27.mp3
+Audio duration: 3.37s
+Processed Peter Griffin: That's great to hear. And how do you see AWS fitting into that future? -> peter_griffin_17.mp3 (3.37s)
+Synthesizing text: I think AWS is going to play a big role in the future of cloud computing, especially with its scalability and reliability features. to media/generated/audio/donald_duck_18.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-ymk-2025-06-19-16-20-33.mp3
+Audio duration: 9.20s
+Processed Donald Duck: I think AWS is going to play a big role in the future of cloud computing, especially with its scalability and reliability features. -> donald_duck_18.mp3 (9.20s)
+Synthesizing text: That's fantastic. Thanks for the insight, Donald. to media/generated/audio/peter_griffin_19.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-dzl-2025-06-19-16-20-39.mp3
+Audio duration: 2.32s
+Processed Peter Griffin: That's fantastic. Thanks for the insight, Donald. -> peter_griffin_19.mp3 (2.32s)
+Synthesizing text: No problem, Peter. to media/generated/audio/donald_duck_20.mp3 using model: shapesinc/doomvoice6
+ERROR: Shapes API call failed: Error code: 429 - {'error': {'message': 'Rate limit reached. To request a rate limit increase please join our slack community https://shapes.inc/slack and share what you are building', 'type': 'rate_limit_error', 'param': None, 'code': 'rate_limit_exceeded'}}
+Synthesizing text: Bye, Donald. to media/generated/audio/peter_griffin_21.mp3 using model: shapesinc/doomvoice5
+ERROR: Shapes API call failed: Error code: 429 - {'error': {'message': 'Rate limit reached. To request a rate limit increase please join our slack community https://shapes.inc/slack and share what you are building', 'type': 'rate_limit_error', 'param': None, 'code': 'rate_limit_exceeded'}}
+Synthesizing text: Bye, Peter. to media/generated/audio/donald_duck_22.mp3 using model: shapesinc/doomvoice6
+ERROR: Shapes API call failed: Error code: 429 - {'error': {'message': 'Rate limit reached. To request a rate limit increase please join our slack community https://shapes.inc/slack and share what you are building', 'type': 'rate_limit_error', 'param': None, 'code': 'rate_limit_exceeded'}}
+entered run
+Synthesizing text: Hey Donald, what's the deal with Amazon Web Services? to media/generated/audio/peter_griffin_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-bgy-2025-06-19-20-00-49.mp3
+Audio duration: 2.32s
+Processed Peter Griffin: Hey Donald, what's the deal with Amazon Web Services? -> peter_griffin_1.mp3 (2.32s)
+Synthesizing text: Ah, Peter, AWS is a comprehensive cloud computing platform that provides a wide range of services for computing, storage, databases, analytics, machine learning, and more. to media/generated/audio/donald_duck_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-jdw-2025-06-19-20-00-55.mp3
+Audio duration: 12.98s
+Processed Donald Duck: Ah, Peter, AWS is a comprehensive cloud computing platform that provides a wide range of services for computing, storage, databases, analytics, machine learning, and more. -> donald_duck_2.mp3 (12.98s)
+Synthesizing text: Whoa, that's a lot of services! What's the most popular one? to media/generated/audio/peter_griffin_3.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-txd-2025-06-19-20-01-01.mp3
+Audio duration: 3.06s
+Processed Peter Griffin: Whoa, that's a lot of services! What's the most popular one? -> peter_griffin_3.mp3 (3.06s)
+Synthesizing text: Well, Peter, one of the most popular services is S3, which is a simple storage service for storing and serving large amounts of data. to media/generated/audio/donald_duck_4.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-nco-2025-06-19-20-01-06.mp3
+Audio duration: 9.38s
+Processed Donald Duck: Well, Peter, one of the most popular services is S3, which is a simple storage service for storing and serving large amounts of data. -> donald_duck_4.mp3 (9.38s)
+Synthesizing text: S3? Sounds like a new kind of beer! to media/generated/audio/peter_griffin_5.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-mom-2025-06-19-20-01-11.mp3
+Audio duration: 2.17s
+Processed Peter Griffin: S3? Sounds like a new kind of beer! -> peter_griffin_5.mp3 (2.17s)
+Synthesizing text: Ha! No, Peter, it's actually a very powerful storage service. to media/generated/audio/donald_duck_6.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-urz-2025-06-19-20-01-16.mp3
+Audio duration: 4.44s
+Processed Donald Duck: Ha! No, Peter, it's actually a very powerful storage service. -> donald_duck_6.mp3 (4.44s)
+Synthesizing text: Okay, got it. What about security? Is it safe? to media/generated/audio/peter_griffin_7.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-nel-2025-06-19-20-01-21.mp3
+Audio duration: 2.69s
+Processed Peter Griffin: Okay, got it. What about security? Is it safe? -> peter_griffin_7.mp3 (2.69s)
+Synthesizing text: Absolutely, Peter. AWS has a number of security features, including encryption, access controls, and monitoring. to media/generated/audio/donald_duck_8.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-gua-2025-06-19-20-01-29.mp3
+Audio duration: 8.78s
+Processed Donald Duck: Absolutely, Peter. AWS has a number of security features, including encryption, access controls, and monitoring. -> donald_duck_8.mp3 (8.78s)
+Synthesizing text: That's great to hear. What about cost? Is it expensive? to media/generated/audio/peter_griffin_9.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-moq-2025-06-19-20-01-34.mp3
+Audio duration: 3.16s
+Processed Peter Griffin: That's great to hear. What about cost? Is it expensive? -> peter_griffin_9.mp3 (3.16s)
+Synthesizing text: Not necessarily, Peter. AWS offers a pay-as-you-go pricing model, so you only pay for what you use. to media/generated/audio/donald_duck_10.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-kod-2025-06-19-20-01-38.mp3
+Audio duration: 7.34s
+Processed Donald Duck: Not necessarily, Peter. AWS offers a pay-as-you-go pricing model, so you only pay for what you use. -> donald_duck_10.mp3 (7.34s)
+Synthesizing text: That sounds good. I think I'll give it a try. to media/generated/audio/peter_griffin_11.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-dii-2025-06-19-20-01-43.mp3
+Audio duration: 2.12s
+Processed Peter Griffin: That sounds good. I think I'll give it a try. -> peter_griffin_11.mp3 (2.12s)
+Synthesizing text: Great decision, Peter! AWS is a fantastic platform. to media/generated/audio/donald_duck_12.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-ewd-2025-06-19-20-01-47.mp3
+Audio duration: 3.76s
+Processed Donald Duck: Great decision, Peter! AWS is a fantastic platform. -> donald_duck_12.mp3 (3.76s)
+Synthesizing text: Thanks for the advice, Donald. to media/generated/audio/peter_griffin_13.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-lsm-2025-06-19-20-01-51.mp3
+Audio duration: 1.38s
+Processed Peter Griffin: Thanks for the advice, Donald. -> peter_griffin_13.mp3 (1.38s)
+Synthesizing text: No problem, Peter. to media/generated/audio/donald_duck_14.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-vsq-2025-06-19-20-01-54.mp3
+Audio duration: 1.38s
+Processed Donald Duck: No problem, Peter. -> donald_duck_14.mp3 (1.38s)
+Synthesizing text: So, what do you think is the future of cloud computing? to media/generated/audio/peter_griffin_15.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-mqy-2025-06-19-20-01-58.mp3
+Audio duration: 2.64s
+Processed Peter Griffin: So, what do you think is the future of cloud computing? -> peter_griffin_15.mp3 (2.64s)
+Synthesizing text: I think the future of cloud computing is going to be all about scalability and reliability. to media/generated/audio/donald_duck_16.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-fkz-2025-06-19-20-02-03.mp3
+Audio duration: 5.98s
+Processed Donald Duck: I think the future of cloud computing is going to be all about scalability and reliability. -> donald_duck_16.mp3 (5.98s)
+Synthesizing text: That's great to hear. And how do you see AWS fitting into that future? to media/generated/audio/peter_griffin_17.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-bec-2025-06-19-20-02-08.mp3
+Audio duration: 3.53s
+Processed Peter Griffin: That's great to hear. And how do you see AWS fitting into that future? -> peter_griffin_17.mp3 (3.53s)
+Synthesizing text: I think AWS is going to play a big role in the future of cloud computing, especially with its scalability and reliability features. to media/generated/audio/donald_duck_18.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-bxp-2025-06-19-20-02-12.mp3
+Audio duration: 8.86s
+Processed Donald Duck: I think AWS is going to play a big role in the future of cloud computing, especially with its scalability and reliability features. -> donald_duck_18.mp3 (8.86s)
+Synthesizing text: That's fantastic. Thanks for the insight, Donald. to media/generated/audio/peter_griffin_19.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-onm-2025-06-19-20-02-18.mp3
+Audio duration: 2.53s
+Processed Peter Griffin: That's fantastic. Thanks for the insight, Donald. -> peter_griffin_19.mp3 (2.53s)
+Synthesizing text: No problem, Peter. to media/generated/audio/donald_duck_20.mp3 using model: shapesinc/doomvoice6
+ERROR: Shapes API call failed: Error code: 429 - {'error': {'message': 'Rate limit reached. To request a rate limit increase please join our slack community https://shapes.inc/slack and share what you are building', 'type': 'rate_limit_error', 'param': None, 'code': 'rate_limit_exceeded'}}
+Synthesizing text: Bye, Donald. to media/generated/audio/peter_griffin_21.mp3 using model: shapesinc/doomvoice5
+ERROR: Shapes API call failed: Error code: 429 - {'error': {'message': 'Rate limit reached. To request a rate limit increase please join our slack community https://shapes.inc/slack and share what you are building', 'type': 'rate_limit_error', 'param': None, 'code': 'rate_limit_exceeded'}}
+Synthesizing text: Bye, Peter. to media/generated/audio/donald_duck_22.mp3 using model: shapesinc/doomvoice6
+ERROR: Shapes API call failed: Error code: 429 - {'error': {'message': 'Rate limit reached. To request a rate limit increase please join our slack community https://shapes.inc/slack and share what you are building', 'type': 'rate_limit_error', 'param': None, 'code': 'rate_limit_exceeded'}}
+entered run
+Synthesizing text: Folks, let me tell you about this amazing thing called GPU. to media/generated/audio/donald_trump_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-jse-2025-06-20-02-34-45.mp3
+Audio duration: 2.95s
+Processed Donald Trump: Folks, let me tell you about this amazing thing called GPU. -> donald_trump_1.mp3 (2.95s)
+Synthesizing text: Ah, Donald, a GPU is a crucial component of modern computing, used for graphics processing and acceleration. to media/generated/audio/elon_musk_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-omb-2025-06-20-02-34-51.mp3
+Audio duration: 8.36s
+Processed Elon Musk: Ah, Donald, a GPU is a crucial component of modern computing, used for graphics processing and acceleration. -> elon_musk_2.mp3 (8.36s)
+Synthesizing text: That's tremendous, Elon. What makes it so great? to media/generated/audio/donald_trump_3.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-whp-2025-06-20-02-34-56.mp3
+Audio duration: 2.53s
+Processed Donald Trump: That's tremendous, Elon. What makes it so great? -> donald_trump_3.mp3 (2.53s)
+Synthesizing text: Well, Donald, GPUs are designed to handle massive amounts of data and perform complex calculations, making them ideal for applications like AI, machine learning, and video rendering. to media/generated/audio/elon_musk_4.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-oxk-2025-06-20-02-35-01.mp3
+Audio duration: 12.77s
+Processed Elon Musk: Well, Donald, GPUs are designed to handle massive amounts of data and perform complex calculations, making them ideal for applications like AI, machine learning, and video rendering. -> elon_musk_4.mp3 (12.77s)
+Synthesizing text: That's incredible. And what about the different types of GPUs? to media/generated/audio/donald_trump_5.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-sju-2025-06-20-02-35-07.mp3
+Audio duration: 3.00s
+Processed Donald Trump: That's incredible. And what about the different types of GPUs? -> donald_trump_5.mp3 (3.00s)
+Synthesizing text: There are several types, Donald, including NVIDIA, AMD, and Intel, each with its own strengths and weaknesses. to media/generated/audio/elon_musk_6.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-blm-2025-06-20-02-35-13.mp3
+Audio duration: 8.91s
+Processed Elon Musk: There are several types, Donald, including NVIDIA, AMD, and Intel, each with its own strengths and weaknesses. -> elon_musk_6.mp3 (8.91s)
+Synthesizing text: So, which one is the best? to media/generated/audio/donald_trump_7.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-gkk-2025-06-20-02-35-18.mp3
+Audio duration: 1.33s
+Processed Donald Trump: So, which one is the best? -> donald_trump_7.mp3 (1.33s)
+Synthesizing text: Ah, Donald, it really depends on the specific use case. But NVIDIA is generally considered the leader in the field. to media/generated/audio/elon_musk_8.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-ggn-2025-06-20-02-35-23.mp3
+Audio duration: 7.97s
+Processed Elon Musk: Ah, Donald, it really depends on the specific use case. But NVIDIA is generally considered the leader in the field. -> elon_musk_8.mp3 (7.97s)
+Synthesizing text: That's great to hear. And what about the future of GPUs? to media/generated/audio/donald_trump_9.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-wut-2025-06-20-02-35-27.mp3
+Audio duration: 3.24s
+Processed Donald Trump: That's great to hear. And what about the future of GPUs? -> donald_trump_9.mp3 (3.24s)
+Synthesizing text: I think the future of GPUs is going to be all about advancements in AI and machine learning, with GPUs playing a crucial role in accelerating these applications. to media/generated/audio/elon_musk_10.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-snd-2025-06-20-02-35-32.mp3
+Audio duration: 10.76s
+Processed Elon Musk: I think the future of GPUs is going to be all about advancements in AI and machine learning, with GPUs playing a crucial role in accelerating these applications. -> elon_musk_10.mp3 (10.76s)
+Synthesizing text: That's fantastic. Thanks for the insight, Elon. to media/generated/audio/donald_trump_11.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-nhd-2025-06-20-02-35-39.mp3
+Audio duration: 2.40s
+Processed Donald Trump: That's fantastic. Thanks for the insight, Elon. -> donald_trump_11.mp3 (2.40s)
+Synthesizing text: No problem, Donald. Bye, Elon. to media/generated/audio/elon_musk_12.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-oup-2025-06-20-02-35-43.mp3
+Audio duration: 2.32s
+Processed Elon Musk: No problem, Donald. Bye, Elon. -> elon_musk_12.mp3 (2.32s)
+Synthesizing text: Bye, Donald. to media/generated/audio/donald_trump_13.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-mas-2025-06-20-02-35-47.mp3
+Audio duration: 0.78s
+Processed Donald Trump: Bye, Donald. -> donald_trump_13.mp3 (0.78s)
+entered run
+Synthesizing text: Superman, I've been hearing about this new CSS framework called Tailwind CSS. What's the deal with it? to media/generated/audio/stewie_griffin_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-rdu-2025-06-20-03-13-08.mp3
+Audio duration: 5.93s
+Processed Stewie Griffin: Superman, I've been hearing about this new CSS framework called Tailwind CSS. What's the deal with it? -> stewie_griffin_1.mp3 (5.93s)
+Synthesizing text: Ah, Stewie, Tailwind CSS is a utility-first CSS framework that makes it easy to style your web applications without writing a lot of custom CSS. to media/generated/audio/superman_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-hvx-2025-06-20-03-13-15.mp3
+Audio duration: 12.49s
+Processed Superman: Ah, Stewie, Tailwind CSS is a utility-first CSS framework that makes it easy to style your web applications without writing a lot of custom CSS. -> superman_2.mp3 (12.49s)
+Synthesizing text: That sounds amazing! How does it work? to media/generated/audio/stewie_griffin_3.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-qly-2025-06-20-03-13-20.mp3
+Audio duration: 2.32s
+Processed Stewie Griffin: That sounds amazing! How does it work? -> stewie_griffin_3.mp3 (2.32s)
+Synthesizing text: Well, Stewie, Tailwind CSS provides a set of pre-defined classes that you can use to style your HTML elements. It's like having a superpower for your CSS! to media/generated/audio/superman_4.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-acy-2025-06-20-03-13-25.mp3
+Audio duration: 12.30s
+Processed Superman: Well, Stewie, Tailwind CSS provides a set of pre-defined classes that you can use to style your HTML elements. It's like having a superpower for your CSS! -> superman_4.mp3 (12.30s)
+Synthesizing text: Ha! A superpower for CSS. That's genius. What about responsiveness? Does it handle that too? to media/generated/audio/stewie_griffin_5.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-hik-2025-06-20-03-13-30.mp3
+Audio duration: 6.82s
+Processed Stewie Griffin: Ha! A superpower for CSS. That's genius. What about responsiveness? Does it handle that too? -> stewie_griffin_5.mp3 (6.82s)
+Synthesizing text: Absolutely, Stewie. Tailwind CSS has built-in support for responsiveness, so you can easily create responsive designs that look great on all devices. to media/generated/audio/superman_6.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-ofr-2025-06-20-03-13-36.mp3
+Audio duration: 10.81s
+Processed Superman: Absolutely, Stewie. Tailwind CSS has built-in support for responsiveness, so you can easily create responsive designs that look great on all devices. -> superman_6.mp3 (10.81s)
+Synthesizing text: That's fantastic. What about customization? Can I customize the look and feel of Tailwind CSS? to media/generated/audio/stewie_griffin_7.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-quc-2025-06-20-03-13-41.mp3
+Audio duration: 5.25s
+Processed Stewie Griffin: That's fantastic. What about customization? Can I customize the look and feel of Tailwind CSS? -> stewie_griffin_7.mp3 (5.25s)
+Synthesizing text: Yes, Stewie. Tailwind CSS is highly customizable, so you can easily change the colors, fonts, and spacing to fit your brand's style. to media/generated/audio/superman_8.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-xyr-2025-06-20-03-13-46.mp3
+Audio duration: 9.87s
+Processed Superman: Yes, Stewie. Tailwind CSS is highly customizable, so you can easily change the colors, fonts, and spacing to fit your brand's style. -> superman_8.mp3 (9.87s)
+Synthesizing text: That's great to hear. I think I'll give it a try. to media/generated/audio/stewie_griffin_9.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-zzq-2025-06-20-03-13-52.mp3
+Audio duration: 2.27s
+Processed Stewie Griffin: That's great to hear. I think I'll give it a try. -> stewie_griffin_9.mp3 (2.27s)
+Synthesizing text: Excellent choice, Stewie! Tailwind CSS is a great tool to have in your super-toolbelt. to media/generated/audio/superman_10.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-kaj-2025-06-20-03-13-56.mp3
+Audio duration: 6.45s
+Processed Superman: Excellent choice, Stewie! Tailwind CSS is a great tool to have in your super-toolbelt. -> superman_10.mp3 (6.45s)
+Synthesizing text: Thanks for the advice, Superman. to media/generated/audio/stewie_griffin_11.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-uwn-2025-06-20-03-14-01.mp3
+Audio duration: 1.57s
+Processed Stewie Griffin: Thanks for the advice, Superman. -> stewie_griffin_11.mp3 (1.57s)
+Synthesizing text: No problem, Stewie. to media/generated/audio/superman_12.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-cjv-2025-06-20-03-14-04.mp3
+Audio duration: 1.70s
+Processed Superman: No problem, Stewie. -> superman_12.mp3 (1.70s)
+Synthesizing text: Bye, Superman. to media/generated/audio/stewie_griffin_13.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-pfe-2025-06-20-03-14-14.mp3
+Audio duration: 0.97s
+Processed Stewie Griffin: Bye, Superman. -> stewie_griffin_13.mp3 (0.97s)
+Synthesizing text: Bye, Stewie. to media/generated/audio/superman_14.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-ezc-2025-06-20-03-14-18.mp3
+Audio duration: 1.15s
+Processed Superman: Bye, Stewie. -> superman_14.mp3 (1.15s)
+entered run
+Synthesizing text: Wonder Woman, I've been hearing about these new React hooks. Can you tell me more about them? to media/generated/audio/batman_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-gav-2025-06-20-04-26-42.mp3
+Audio duration: 4.55s
+Processed Batman: Wonder Woman, I've been hearing about these new React hooks. Can you tell me more about them? -> batman_1.mp3 (4.55s)
+Synthesizing text: Ah, Batman, React hooks are a way to use state and other React features without having to write a class component. to media/generated/audio/wonder_woman_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-gub-2025-06-20-04-26-48.mp3
+Audio duration: 8.02s
+Processed Wonder Woman: Ah, Batman, React hooks are a way to use state and other React features without having to write a class component. -> wonder_woman_2.mp3 (8.02s)
+Synthesizing text: That's fascinating. How do they work? to media/generated/audio/batman_3.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-qrr-2025-06-20-04-26-53.mp3
+Audio duration: 2.04s
+Processed Batman: That's fascinating. How do they work? -> batman_3.mp3 (2.04s)
+Synthesizing text: Well, Batman, hooks allow you to use functions to manage state and other React features, making it easier to write efficient and effective code. to media/generated/audio/wonder_woman_4.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-dit-2025-06-20-04-26-59.mp3
+Audio duration: 9.93s
+Processed Wonder Woman: Well, Batman, hooks allow you to use functions to manage state and other React features, making it easier to write efficient and effective code. -> wonder_woman_4.mp3 (9.93s)
+Synthesizing text: I see. And what about useState? How does it work? to media/generated/audio/batman_5.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-ijh-2025-06-20-04-27-04.mp3
+Audio duration: 2.40s
+Processed Batman: I see. And what about useState? How does it work? -> batman_5.mp3 (2.40s)
+Synthesizing text: useState is a hook that allows you to add state to a functional component, making it easier to manage state and keep your code organized. to media/generated/audio/wonder_woman_6.mp3 using model: shapesinc/doomvoice6
+entered run
+Synthesizing text: Superman, I've been hearing about these new React hooks. Can you tell me more about them? to media/generated/audio/batman_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-ovc-2025-06-20-04-30-23.mp3
+Audio duration: 4.00s
+Processed Batman: Superman, I've been hearing about these new React hooks. Can you tell me more about them? -> batman_1.mp3 (4.00s)
+Synthesizing text: Ah, Batman, React hooks are a way to use state and other React features without having to write a class component. to media/generated/audio/superman_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-hrt-2025-06-20-04-30-28.mp3
+Audio duration: 8.18s
+Processed Superman: Ah, Batman, React hooks are a way to use state and other React features without having to write a class component. -> superman_2.mp3 (8.18s)
+Synthesizing text: That's fascinating. How do they work? to media/generated/audio/batman_3.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-gjb-2025-06-20-04-30-33.mp3
+Audio duration: 1.99s
+Processed Batman: That's fascinating. How do they work? -> batman_3.mp3 (1.99s)
+Synthesizing text: Well, Batman, hooks allow you to use functions to manage state and other React features, making it easier to write efficient and effective code. to media/generated/audio/superman_4.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-puq-2025-06-20-04-30-39.mp3
+Audio duration: 9.85s
+Processed Superman: Well, Batman, hooks allow you to use functions to manage state and other React features, making it easier to write efficient and effective code. -> superman_4.mp3 (9.85s)
+Synthesizing text: I see. And what about useState? How does it work? to media/generated/audio/batman_5.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-qzs-2025-06-20-04-30-44.mp3
+Audio duration: 2.35s
+Processed Batman: I see. And what about useState? How does it work? -> batman_5.mp3 (2.35s)
+Synthesizing text: useState is a hook that allows you to add state to a functional component, making it easier to manage state and keep your code organized. to media/generated/audio/superman_6.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-vkz-2025-06-20-04-30-50.mp3
+Audio duration: 9.43s
+Processed Superman: useState is a hook that allows you to add state to a functional component, making it easier to manage state and keep your code organized. -> superman_6.mp3 (9.43s)
+Synthesizing text: That's great to hear. And what about useEffect? How does it work? to media/generated/audio/batman_7.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-exq-2025-06-20-04-30-55.mp3
+Audio duration: 3.34s
+Processed Batman: That's great to hear. And what about useEffect? How does it work? -> batman_7.mp3 (3.34s)
+Synthesizing text: useEffect is a hook that allows you to run side effects, such as API calls or DOM mutations, after rendering a component. to media/generated/audio/superman_8.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-tpc-2025-06-20-04-31-00.mp3
+Audio duration: 8.44s
+Processed Superman: useEffect is a hook that allows you to run side effects, such as API calls or DOM mutations, after rendering a component. -> superman_8.mp3 (8.44s)
+Synthesizing text: I'm impressed. React hooks sound like a powerful tool. to media/generated/audio/batman_9.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-zcp-2025-06-20-04-31-05.mp3
+Audio duration: 3.29s
+Processed Batman: I'm impressed. React hooks sound like a powerful tool. -> batman_9.mp3 (3.29s)
+Synthesizing text: Yes, Batman. React hooks are a fundamental part of the React ecosystem, making it easier to write efficient and effective code. to media/generated/audio/superman_10.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-vsq-2025-06-20-04-31-11.mp3
+Audio duration: 8.67s
+Processed Superman: Yes, Batman. React hooks are a fundamental part of the React ecosystem, making it easier to write efficient and effective code. -> superman_10.mp3 (8.67s)
+Synthesizing text: Thanks for explaining it to me, Superman. to media/generated/audio/batman_11.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-ntg-2025-06-20-04-31-16.mp3
+Audio duration: 1.80s
+Processed Batman: Thanks for explaining it to me, Superman. -> batman_11.mp3 (1.80s)
+Synthesizing text: No problem, Batman. to media/generated/audio/superman_12.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-tms-2025-06-20-04-31-19.mp3
+Audio duration: 1.62s
+Processed Superman: No problem, Batman. -> superman_12.mp3 (1.62s)
+Synthesizing text: So, what do you think is the future of React? to media/generated/audio/batman_13.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-mxv-2025-06-20-04-31-24.mp3
+Audio duration: 2.27s
+Processed Batman: So, what do you think is the future of React? -> batman_13.mp3 (2.27s)
+Synthesizing text: I think the future of React is going to be all about hooks and functional components. to media/generated/audio/superman_14.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-fza-2025-06-20-04-31-28.mp3
+Audio duration: 5.56s
+Processed Superman: I think the future of React is going to be all about hooks and functional components. -> superman_14.mp3 (5.56s)
+Synthesizing text: That's great to hear. And how do you see React hooks fitting into that future? to media/generated/audio/batman_15.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-hrs-2025-06-20-04-31-33.mp3
+Audio duration: 3.89s
+Processed Batman: That's great to hear. And how do you see React hooks fitting into that future? -> batman_15.mp3 (3.89s)
+Synthesizing text: I think React hooks are going to play a big role in the future of React, especially with their ability to simplify state management and improve code organization. to media/generated/audio/superman_16.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-ony-2025-06-20-04-31-40.mp3
+Audio duration: 10.27s
+Processed Superman: I think React hooks are going to play a big role in the future of React, especially with their ability to simplify state management and improve code organization. -> superman_16.mp3 (10.27s)
+Synthesizing text: That's fantastic. Thanks for the insight, Superman. to media/generated/audio/batman_17.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-obd-2025-06-20-04-31-45.mp3
+Audio duration: 2.46s
+Processed Batman: That's fantastic. Thanks for the insight, Superman. -> batman_17.mp3 (2.46s)
+Synthesizing text: No problem, Batman. to media/generated/audio/superman_18.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-vjz-2025-06-20-04-31-50.mp3
+Audio duration: 1.67s
+Processed Superman: No problem, Batman. -> superman_18.mp3 (1.67s)
+Synthesizing text: Bye, Superman. to media/generated/audio/batman_19.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-mdj-2025-06-20-04-31-54.mp3
+Audio duration: 0.97s
+Processed Batman: Bye, Superman. -> batman_19.mp3 (0.97s)
+Synthesizing text: Bye, Batman. to media/generated/audio/superman_20.mp3 using model: shapesinc/doomvoice6
+ERROR: Shapes API call failed: Error code: 429 - {'error': {'message': 'Rate limit reached. To request a rate limit increase please join our slack community https://shapes.inc/slack and share what you are building', 'type': 'rate_limit_error', 'param': None, 'code': 'rate_limit_exceeded'}}
+entered run
+Synthesizing text: Superman, I've been hearing about these new React hooks. Can you tell me more about them? to media/generated/audio/batman_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-bxc-2025-06-20-04-51-53.mp3
+Audio duration: 4.31s
+Processed Batman: Superman, I've been hearing about these new React hooks. Can you tell me more about them? -> batman_1.mp3 (4.31s)
+Synthesizing text: Ah, Batman, React hooks are a way to use state and other React features without having to write a class component. to media/generated/audio/superman_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-cus-2025-06-20-04-51-58.mp3
+Audio duration: 8.07s
+Processed Superman: Ah, Batman, React hooks are a way to use state and other React features without having to write a class component. -> superman_2.mp3 (8.07s)
+Synthesizing text: That's fascinating. How do they work? to media/generated/audio/batman_3.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-rsc-2025-06-20-04-52-04.mp3
+Audio duration: 1.93s
+Processed Batman: That's fascinating. How do they work? -> batman_3.mp3 (1.93s)
+Synthesizing text: Well, Batman, hooks allow you to use functions to manage state and other React features, making it easier to write efficient and effective code. to media/generated/audio/superman_4.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-ooc-2025-06-20-04-52-09.mp3
+Audio duration: 9.93s
+Processed Superman: Well, Batman, hooks allow you to use functions to manage state and other React features, making it easier to write efficient and effective code. -> superman_4.mp3 (9.93s)
+Synthesizing text: I see. And what about useState? How does it work? to media/generated/audio/batman_5.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-bdl-2025-06-20-04-52-15.mp3
+Audio duration: 2.69s
+Processed Batman: I see. And what about useState? How does it work? -> batman_5.mp3 (2.69s)
+Synthesizing text: useState is a hook that allows you to add state to a functional component, making it easier to manage state and keep your code organized. to media/generated/audio/superman_6.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-exj-2025-06-20-04-52-21.mp3
+Audio duration: 9.20s
+Processed Superman: useState is a hook that allows you to add state to a functional component, making it easier to manage state and keep your code organized. -> superman_6.mp3 (9.20s)
+Synthesizing text: That's great to hear. And what about useEffect? How does it work? to media/generated/audio/batman_7.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-yww-2025-06-20-04-52-27.mp3
+Audio duration: 3.47s
+Processed Batman: That's great to hear. And what about useEffect? How does it work? -> batman_7.mp3 (3.47s)
+Synthesizing text: useEffect is a hook that allows you to run side effects, such as API calls or DOM mutations, after rendering a component. to media/generated/audio/superman_8.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-gql-2025-06-20-04-52-33.mp3
+Audio duration: 8.54s
+Processed Superman: useEffect is a hook that allows you to run side effects, such as API calls or DOM mutations, after rendering a component. -> superman_8.mp3 (8.54s)
+Synthesizing text: I'm impressed. React hooks sound like a powerful tool. to media/generated/audio/batman_9.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-okx-2025-06-20-04-52-40.mp3
+Audio duration: 2.87s
+Processed Batman: I'm impressed. React hooks sound like a powerful tool. -> batman_9.mp3 (2.87s)
+Synthesizing text: Yes, Batman. React hooks are a fundamental part of the React ecosystem, making it easier to write efficient and effective code. to media/generated/audio/superman_10.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-wrg-2025-06-20-04-52-50.mp3
+Audio duration: 8.62s
+Processed Superman: Yes, Batman. React hooks are a fundamental part of the React ecosystem, making it easier to write efficient and effective code. -> superman_10.mp3 (8.62s)
+Synthesizing text: Thanks for explaining it to me, Superman. to media/generated/audio/batman_11.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-lex-2025-06-20-04-53-01.mp3
+Audio duration: 1.80s
+Processed Batman: Thanks for explaining it to me, Superman. -> batman_11.mp3 (1.80s)
+Synthesizing text: No problem, Batman. to media/generated/audio/superman_12.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-pvg-2025-06-20-04-53-10.mp3
+Audio duration: 1.67s
+Processed Superman: No problem, Batman. -> superman_12.mp3 (1.67s)
+Synthesizing text: So, what do you think is the future of React? to media/generated/audio/batman_13.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-pvv-2025-06-20-04-53-15.mp3
+Audio duration: 2.12s
+Processed Batman: So, what do you think is the future of React? -> batman_13.mp3 (2.12s)
+Synthesizing text: I think the future of React is going to be all about hooks and functional components. to media/generated/audio/superman_14.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-lxz-2025-06-20-04-53-21.mp3
+Audio duration: 5.69s
+Processed Superman: I think the future of React is going to be all about hooks and functional components. -> superman_14.mp3 (5.69s)
+Synthesizing text: That's great to hear. And how do you see React hooks fitting into that future? to media/generated/audio/batman_15.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-jlf-2025-06-20-04-53-27.mp3
+Audio duration: 3.76s
+Processed Batman: That's great to hear. And how do you see React hooks fitting into that future? -> batman_15.mp3 (3.76s)
+Synthesizing text: I think React hooks are going to play a big role in the future of React, especially with their ability to simplify state management and improve code organization. to media/generated/audio/superman_16.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-nqd-2025-06-20-04-53-34.mp3
+Audio duration: 10.40s
+Processed Superman: I think React hooks are going to play a big role in the future of React, especially with their ability to simplify state management and improve code organization. -> superman_16.mp3 (10.40s)
+Synthesizing text: That's fantastic. Thanks for the insight, Superman. to media/generated/audio/batman_17.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-kgx-2025-06-20-04-53-39.mp3
+Audio duration: 2.40s
+Processed Batman: That's fantastic. Thanks for the insight, Superman. -> batman_17.mp3 (2.40s)
+Synthesizing text: No problem, Batman. to media/generated/audio/superman_18.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-lej-2025-06-20-04-53-43.mp3
+Audio duration: 1.67s
+Processed Superman: No problem, Batman. -> superman_18.mp3 (1.67s)
+Synthesizing text: Bye, Superman. to media/generated/audio/batman_19.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-lvy-2025-06-20-04-53-48.mp3
+Audio duration: 0.86s
+Processed Batman: Bye, Superman. -> batman_19.mp3 (0.86s)
+Synthesizing text: Bye, Batman. to media/generated/audio/superman_20.mp3 using model: shapesinc/doomvoice6
+ERROR: Shapes API call failed: Error code: 429 - {'error': {'message': 'Rate limit reached. To request a rate limit increase please join our slack community https://shapes.inc/slack and share what you are building', 'type': 'rate_limit_error', 'param': None, 'code': 'rate_limit_exceeded'}}
+entered run
+Synthesizing text: what are react hooks? to media/generated/audio/batman_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-lmp-2025-06-20-05-01-52.mp3
+Audio duration: 1.33s
+Processed batman: what are react hooks? -> batman_1.mp3 (1.33s)
+Synthesizing text: they let you use state and other react features in functional components to media/generated/audio/superman_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-yyv-2025-06-20-05-01-57.mp3
+Audio duration: 4.96s
+Processed superman: they let you use state and other react features in functional components -> superman_2.mp3 (4.96s)
