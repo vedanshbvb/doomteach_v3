@@ -4,6 +4,6 @@ media/generated/audio/
 doomteach/generator/pipeline.log
 doomteach/generator/pipeline2.log
 **/node_modules/
-doom_video.mp4
+media/generated/video/
 doom_video_with_subs.mp4
 oauth_logs.txt
