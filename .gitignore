@@ -1,10 +1,14 @@
 development/
 media/generated/audio/
 .env
-doomteach/generator/pipeline.log
-doomteach/generator/pipeline2.log
+generator/pipeline.log
+generator/pipeline2.log
 **/node_modules/
 media/generated/video/
 doom_video_with_subs.mp4
 oauth_logs.txt
 v3env/
+*.py[cod]
+*$py.class
+tools/__pycache__/
+*.pyc
