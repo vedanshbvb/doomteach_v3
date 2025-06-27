@@ -44,11 +44,6 @@ RootAgent = LlmAgent(
 
 
 
-
-
-
-    5. Optionally use the PublishAgent to publish the video.
-    6. Optionally use the AnalyticsAgent to fetch analytics for published videos.
     Always reason about which agent/tool to call next, and pass outputs as needed. Return the final video path or analytics as appropriate.
     """,
     tools=[
