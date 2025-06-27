@@ -82,11 +82,11 @@ router.post('/upload-video', async (req, res) => {
       part: ['snippet', 'status'],
       requestBody: {
         snippet: {
-          title: 'Uploaded by DoomTeach',
-          description: 'Video uploaded via DoomTeach app',
+          title: 'Created with DoomTeach',
+          description: '#shorts #doomteach #brainrot',
         },
         status: {
-          privacyStatus: 'private',
+          privacyStatus: 'unlisted',
         },
       },
       media: {

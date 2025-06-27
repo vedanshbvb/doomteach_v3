@@ -125,3 +125,21 @@ EVENT: Event
 CONTENT: The video generation is complete. The final video is located at /home/vedansh/doomteach_v3_parent/doomteach_v3/media/generated/video/doom_video_with_subs.mp4.
 
 STATUS: RootAgent completed successfully.
+inside create video with stickers
+tts_output in FILE video_editing.py: {'audio_path': 'media/generated/audio/final_audio.mp3', 'timestamps': [{'speaker': 'Stewie', 'start': 0.0, 'duration': 1.51, 'text': 'Hello!'}, {'speaker': 'Barbie', 'start': 1.51, 'duration': 5.32, 'text': 'Hi there!'}, {'speaker': 'Stewie', 'start': 6.84, 'duration': 4.54, 'text': 'How are you?'}, {'speaker': 'Barbie', 'start': 11.38, 'duration': 7.88, 'text': "I'm great, thanks!"}]}
+Total clips to composite: 2 (1 video + 1 overlays)
+Total clips to composite: 3 (1 video + 2 overlays)
+Total clips to composite: 4 (1 video + 3 overlays)
+Total clips to composite: 5 (1 video + 4 overlays)
+inside create video with stickers
+tts_output in FILE video_editing.py: {'audio_path': 'media/generated/audio/final_audio.mp3', 'timestamps': [{'speaker': 'Stewie', 'start': 0.0, 'duration': 1.51, 'text': 'Hello!'}, {'speaker': 'Barbie', 'start': 1.51, 'duration': 5.32, 'text': 'Hi there!'}, {'speaker': 'Stewie', 'start': 6.84, 'duration': 4.54, 'text': 'How are you?'}, {'speaker': 'Barbie', 'start': 11.38, 'duration': 7.88, 'text': "I'm great, thanks!"}]}
+Total clips to composite: 2 (1 video + 1 overlays)
+Total clips to composite: 3 (1 video + 2 overlays)
+Total clips to composite: 4 (1 video + 3 overlays)
+Total clips to composite: 5 (1 video + 4 overlays)
+inside create video with stickers
+tts_output in FILE video_editing.py: {'audio_path': 'media/generated/audio/final_audio.mp3', 'timestamps': [{'speaker': 'Superman', 'start': 0.0, 'duration': 1.51, 'text': 'Hello!'}, {'speaker': 'Barbie', 'start': 1.51, 'duration': 5.32, 'text': 'Hi there!'}, {'speaker': 'Superman', 'start': 6.84, 'duration': 4.54, 'text': 'How are you?'}, {'speaker': 'Barbie', 'start': 11.38, 'duration': 7.88, 'text': "I'm great, thanks!"}]}
+Total clips to composite: 2 (1 video + 1 overlays)
+Total clips to composite: 3 (1 video + 2 overlays)
+Total clips to composite: 4 (1 video + 3 overlays)
+Total clips to composite: 5 (1 video + 4 overlays)

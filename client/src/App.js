@@ -47,7 +47,9 @@ function OAuthSuccess() {
       <button
         className="prompt-form-button"
         style={{ marginTop: '1rem' }}
-        onClick={() => navigate('/')}
+        // onClick={() => navigate('/')}
+        onClick={() => window.location.href = 'http://localhost:3000/'}
+
       >
         Go to Homepage
       </button>
@@ -62,6 +64,20 @@ function App() {
   const [uploading, setUploading] = useState(false);
   const [uploaded, setUploaded] = useState(false);
   const [videoId, setVideoId] = useState(null);
+  const [videoExists, setVideoExists] = useState(false);
+
+  // Check if video file exists on mount
+  useEffect(() => {
+    const checkVideo = async () => {
+      try {
+        const res = await fetch('http://localhost:5000/media/video/doom_video_with_subs.mp4', { method: 'HEAD' });
+        setVideoExists(res.ok);
+      } catch {
+        setVideoExists(false);
+      }
+    };
+    checkVideo();
+  }, []);
 
   // Check if redirected from OAuth and trigger upload
   useEffect(() => {
@@ -120,10 +136,10 @@ function App() {
             {status === 'Generating...' && (
               <div className="generating-text">Generating...</div>
             )}
-            {videoGenerated && (
+            {(videoExists || videoGenerated) && (
               <>
                 <div className="video-generated-text">
-                  Video generated at <span className="video-path">doomteach/media/generated/video/doom_video_with_subs.mp4</span>
+                  Video at <span className="video-path">doomteach/media/generated/video/doom_video_with_subs.mp4</span>
                 </div>
                 <video width="480" height="270" controls style={{ marginTop: '16px' }}>
                   <source src="http://localhost:5000/media/video/doom_video_with_subs.mp4" type="video/mp4" />

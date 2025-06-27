@@ -79,7 +79,7 @@ def create_video_with_stickers(tts_output, character_img_paths, char_list, bg_vi
     if len(char_list) >= 2:
         position_map = {
             char_list[0]: ("left", 0.05),
-            char_list[1]: ("right", 0.75),
+            char_list[1]: ("right", 0.6),
         }
 
     log_line(f"tts_output in FILE video_editing.py: {tts_output}")
@@ -107,13 +107,15 @@ def create_video_with_stickers(tts_output, character_img_paths, char_list, bg_vi
             x_frac = position_map[speaker][1]
             try:
                 sticker = (
-                    ImageClip(img_path)
+                    ImageClip(img_path, transparent=True)
                     .set_start(start)
                     .set_duration(duration)
                     .resize(height=350)
                     .set_position((x_frac * video.w, video.h - 350))
                 )
                 clips.append(sticker)
+                clipved = ImageClip(img_path, transparent=True)
+                clipved.mask.save_frame("debug_mask.png", t=0)
             except Exception as e:
                 print(f"Warning: Could not load sticker image {img_path}: {e}")
 
@@ -177,17 +179,17 @@ if __name__ == "__main__":
         tts_output = {
             "audio_path": "media/generated/audio/final_audio.mp3",
             "timestamps": [
-                {"speaker": "Stewie", "start": 0.0, "duration": 1.51, "text": "Hello!"},
+                {"speaker": "Superman", "start": 0.0, "duration": 1.51, "text": "Hello!"},
                 {"speaker": "Barbie", "start": 1.51, "duration": 5.32, "text": "Hi there!"},
-                {"speaker": "Stewie", "start": 6.84, "duration": 4.54, "text": "How are you?"},
+                {"speaker": "Superman", "start": 6.84, "duration": 4.54, "text": "How are you?"},
                 {"speaker": "Barbie", "start": 11.38, "duration": 7.88, "text": "I'm great, thanks!"}
             ]
         }
         character_img_paths = {
-            "Stewie": "media/stickers/stewiegriffin.png",
+            "Superman": "media/stickers/superman.png",
             "Barbie": "media/stickers/barbie.png"
         }
-        char_list = ["Stewie", "Barbie"]
+        char_list = ["Superman", "Barbie"]
         audio_path = tts_output["audio_path"]
 
     out_path = create_video_with_stickers(
