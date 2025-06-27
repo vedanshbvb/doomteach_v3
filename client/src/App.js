@@ -10,13 +10,43 @@ import {
 
 function OAuthSuccess() {
   const navigate = useNavigate();
+  const [uploading, setUploading] = useState(false);
+  const [uploaded, setUploaded] = useState(false);
+  const [videoId, setVideoId] = useState(null);
+
+  const handlePostToYouTube = async () => {
+    setUploading(true);
+    try {
+      const res = await axios.post('/api/upload-video');
+      setUploading(false);
+      setUploaded(true);
+      setVideoId(res.data.videoId);
+    } catch (err) {
+      setUploading(false);
+      console.error('Upload failed:', err);
+    }
+  };
+
   return (
     <div className="app">
       <h1 className="title">doomteach</h1>
-      <div className="subtitle">Signed in successfully!</div>
+      <div className="subtitle">Signed in successfully</div>
       <button
         className="prompt-form-button"
         style={{ marginTop: '2rem' }}
+        onClick={handlePostToYouTube}
+        disabled={uploading}
+      >
+        {uploading ? 'Uploading to YouTube...' : 'Post to Youtube'}
+      </button>
+      {uploaded && videoId && (
+        <div className="video-generated-text" style={{ color: '#00fff7', marginTop: '1rem' }}>
+          Uploaded! View on <a href={`https://youtube.com/watch?v=${videoId}`} target="_blank" rel="noopener noreferrer">YouTube</a>.
+        </div>
+      )}
+      <button
+        className="prompt-form-button"
+        style={{ marginTop: '1rem' }}
         onClick={() => navigate('/')}
       >
         Go to Homepage

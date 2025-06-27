@@ -10,7 +10,8 @@ class GetStickersTool(FunctionTool):
     def __init__(self):
         def get_stickers(characters: List[str]) -> dict:
             """
-            Downloads stickers for the given characters and returns a dict of character->image path.
+            Searches for stickers (transparent images with clear backgrounds) for the given characters in the folder media/stickers.
+            If they are not found in the folder then downloads stickers for the given characters and returns a dict of character->image path.
 
             Args:
                 characters (List[str]): List of character names. Each character name must be a string. So characters is a list of strings.
