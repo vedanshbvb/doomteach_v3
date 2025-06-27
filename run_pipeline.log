@@ -1,0 +1,127 @@
+STATUS: Starting pipeline for prompt: make a very short video of peter griffin and stewie griffin talking about usb. peter will ask full form of usb and stewie will tell. 
+STATUS: Session created.
+STATUS: Running RootAgent...
+EVENT: Event
+CONTENT: Okay, I will create a video of Peter Griffin and Stewie Griffin discussing USB. First, I need to generate a script for their conversation. Then, I'll identify the characters involved. After that, I'll generate the audio using the VoiceAgent and create the video with stickers and subtitles using the VideoAgent.
+
+STATUS: Starting script generation...
+Generated script: {
+"Peter Griffin": "Stewie, what's the full form of USB?",
+"Stewie Griffin": "Ah, Peter, it's Universal Serial Bus, of course!",
+"Peter Griffin": "Universal Serial Bus, that's a mouthful!",
+"Stewie Griffin": "Yes, Peter, it's a standard interface for connecting devices to a computer.",
+"Peter Griffin": "I see, so it's like a special highway for data?",
+"Stewie Griffin": "Exactly, Peter! And USB has evolved over the years to support faster speeds and more devices.",
+"Peter Griffin": "Wow, I had no idea it was so complex!",
+"Stewie Griffin": "Well, Peter, it's actually quite simple once you understand it.",
+"Peter Griffin": "Okay, so what about USB-A, USB-B, and USB-C?",
+"Stewie Griffin": "Ah, Peter, those are just different types of USB connectors.",
+"Peter Griffin": "Types of connectors? I thought they were different versions!",
+"Stewie Griffin": "No, Peter, they're just different shapes and sizes.",
+"Peter Griffin": "I get it now, thanks Stewie!",
+"Stewie Griffin": "Anytime, Peter!"}
+
+
+
+script done
+Parsed script: [['Peter Griffin', "Stewie, what's the full form of USB?"], ['Stewie Griffin', "Ah, Peter, it's Universal Serial Bus, of course!"], ['Peter Griffin', "Universal Serial Bus, that's a mouthful!"], ['Stewie Griffin', "Yes, Peter, it's a standard interface for connecting devices to a computer."], ['Peter Griffin', "I see, so it's like a special highway for data?"], ['Stewie Griffin', 'Exactly, Peter! And USB has evolved over the years to support faster speeds and more devices.'], ['Peter Griffin', 'Wow, I had no idea it was so complex!'], ['Stewie Griffin', "Well, Peter, it's actually quite simple once you understand it."], ['Peter Griffin', 'Okay, so what about USB-A, USB-B, and USB-C?'], ['Stewie Griffin', 'Ah, Peter, those are just different types of USB connectors.'], ['Peter Griffin', 'Types of connectors? I thought they were different versions!'], ['Stewie Griffin', "No, Peter, they're just different shapes and sizes."], ['Peter Griffin', 'I get it now, thanks Stewie!'], ['Stewie Griffin', 'Anytime, Peter!']]
+EVENT: Event
+CONTENT: None
+EVENT: Event
+CONTENT: I have the script now. The next step is to identify the characters in the script.
+
+EVENT: Event
+CONTENT: None
+EVENT: Event
+CONTENT: Okay, the characters are Peter Griffin and Stewie Griffin. Now I will use the VoiceAgent to generate the audio and timeline.
+
+STATUS: Starting AUDIO generation...
+entered run
+Synthesizing text: Stewie, what's the full form of USB? to media/generated/audio/peter_griffin_1.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-vga-2025-06-27-10-16-17.mp3
+Audio duration: 1.93s
+Processed Peter Griffin: Stewie, what's the full form of USB? -> peter_griffin_1.mp3 (1.93s)
+Synthesizing text: Ah, Peter, it's Universal Serial Bus, of course! to media/generated/audio/stewie_griffin_2.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-mqe-2025-06-27-10-16-23.mp3
+Audio duration: 3.89s
+Processed Stewie Griffin: Ah, Peter, it's Universal Serial Bus, of course! -> stewie_griffin_2.mp3 (3.89s)
+Synthesizing text: Universal Serial Bus, that's a mouthful! to media/generated/audio/peter_griffin_3.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-agb-2025-06-27-10-16-27.mp3
+Audio duration: 2.17s
+Processed Peter Griffin: Universal Serial Bus, that's a mouthful! -> peter_griffin_3.mp3 (2.17s)
+Synthesizing text: Yes, Peter, it's a standard interface for connecting devices to a computer. to media/generated/audio/stewie_griffin_4.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-kou-2025-06-27-10-16-31.mp3
+Audio duration: 5.02s
+Processed Stewie Griffin: Yes, Peter, it's a standard interface for connecting devices to a computer. -> stewie_griffin_4.mp3 (5.02s)
+Synthesizing text: I see, so it's like a special highway for data? to media/generated/audio/peter_griffin_5.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-fjm-2025-06-27-10-16-36.mp3
+Audio duration: 2.46s
+Processed Peter Griffin: I see, so it's like a special highway for data? -> peter_griffin_5.mp3 (2.46s)
+Synthesizing text: Exactly, Peter! And USB has evolved over the years to support faster speeds and more devices. to media/generated/audio/stewie_griffin_6.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-zdu-2025-06-27-10-16-41.mp3
+Audio duration: 7.05s
+Processed Stewie Griffin: Exactly, Peter! And USB has evolved over the years to support faster speeds and more devices. -> stewie_griffin_6.mp3 (7.05s)
+Synthesizing text: Wow, I had no idea it was so complex! to media/generated/audio/peter_griffin_7.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-ryd-2025-06-27-10-16-48.mp3
+Audio duration: 2.17s
+Processed Peter Griffin: Wow, I had no idea it was so complex! -> peter_griffin_7.mp3 (2.17s)
+Synthesizing text: Well, Peter, it's actually quite simple once you understand it. to media/generated/audio/stewie_griffin_8.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-vzt-2025-06-27-10-16-52.mp3
+Audio duration: 4.21s
+Processed Stewie Griffin: Well, Peter, it's actually quite simple once you understand it. -> stewie_griffin_8.mp3 (4.21s)
+Synthesizing text: Okay, so what about USB-A, USB-B, and USB-C? to media/generated/audio/peter_griffin_9.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-gbh-2025-06-27-10-16-57.mp3
+Audio duration: 3.37s
+Processed Peter Griffin: Okay, so what about USB-A, USB-B, and USB-C? -> peter_griffin_9.mp3 (3.37s)
+Synthesizing text: Ah, Peter, those are just different types of USB connectors. to media/generated/audio/stewie_griffin_10.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-chw-2025-06-27-10-17-01.mp3
+Audio duration: 3.84s
+Processed Stewie Griffin: Ah, Peter, those are just different types of USB connectors. -> stewie_griffin_10.mp3 (3.84s)
+Synthesizing text: Types of connectors? I thought they were different versions! to media/generated/audio/peter_griffin_11.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-hhi-2025-06-27-10-17-06.mp3
+Audio duration: 3.19s
+Processed Peter Griffin: Types of connectors? I thought they were different versions! -> peter_griffin_11.mp3 (3.19s)
+Synthesizing text: No, Peter, they're just different shapes and sizes. to media/generated/audio/stewie_griffin_12.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-xwp-2025-06-27-10-17-11.mp3
+Audio duration: 3.24s
+Processed Stewie Griffin: No, Peter, they're just different shapes and sizes. -> stewie_griffin_12.mp3 (3.24s)
+Synthesizing text: I get it now, thanks Stewie! to media/generated/audio/peter_griffin_13.mp3 using model: shapesinc/doomvoice5
+Audio URL: https://files.shapes.inc/doomvoice5-rnj-2025-06-27-10-17-15.mp3
+Audio duration: 1.62s
+Processed Peter Griffin: I get it now, thanks Stewie! -> peter_griffin_13.mp3 (1.62s)
+Synthesizing text: Anytime, Peter! to media/generated/audio/stewie_griffin_14.mp3 using model: shapesinc/doomvoice6
+Audio URL: https://files.shapes.inc/doomvoice6-jbj-2025-06-27-10-17-19.mp3
+Audio duration: 1.49s
+Processed Stewie Griffin: Anytime, Peter! -> stewie_griffin_14.mp3 (1.49s)
+timeline INSIDE TTS2.py: [{'speaker': 'Peter Griffin', 'start': 0.0, 'duration': 1.933061224489796, 'filename': 'peter_griffin_1.mp3'}, {'speaker': 'Stewie Griffin', 'start': 1.933061224489796, 'duration': 3.8922448979591837, 'filename': 'stewie_griffin_2.mp3'}, {'speaker': 'Peter Griffin', 'start': 5.82530612244898, 'duration': 2.1681632653061222, 'filename': 'peter_griffin_3.mp3'}, {'speaker': 'Stewie Griffin', 'start': 7.993469387755102, 'duration': 5.015510204081632, 'filename': 'stewie_griffin_4.mp3'}, {'speaker': 'Peter Griffin', 'start': 13.008979591836734, 'duration': 2.455510204081633, 'filename': 'peter_griffin_5.mp3'}, {'speaker': 'Stewie Griffin', 'start': 15.464489795918368, 'duration': 7.053061224489796, 'filename': 'stewie_griffin_6.mp3'}, {'speaker': 'Peter Griffin', 'start': 22.517551020408163, 'duration': 2.1681632653061222, 'filename': 'peter_griffin_7.mp3'}, {'speaker': 'Stewie Griffin', 'start': 24.685714285714287, 'duration': 4.2057142857142855, 'filename': 'stewie_griffin_8.mp3'}, {'speaker': 'Peter Griffin', 'start': 28.891428571428573, 'duration': 3.369795918367347, 'filename': 'peter_griffin_9.mp3'}, {'speaker': 'Stewie Griffin', 'start': 32.26122448979592, 'duration': 3.84, 'filename': 'stewie_griffin_10.mp3'}, {'speaker': 'Peter Griffin', 'start': 36.101224489795925, 'duration': 3.186938775510204, 'filename': 'peter_griffin_11.mp3'}, {'speaker': 'Stewie Griffin', 'start': 39.28816326530613, 'duration': 3.239183673469388, 'filename': 'stewie_griffin_12.mp3'}, {'speaker': 'Peter Griffin', 'start': 42.52734693877552, 'duration': 1.619591836734694, 'filename': 'peter_griffin_13.mp3'}, {'speaker': 'Stewie Griffin', 'start': 44.146938775510215, 'duration': 1.4889795918367348, 'filename': 'stewie_griffin_14.mp3'}]
+tts_output RECEIVED BY TTS TOOL: {'audio_path': 'media/generated/audio/final_audio.mp3', 'timestamps': [{'speaker': 'Peter Griffin', 'start': 0.0, 'duration': 1.933061224489796, 'filename': 'peter_griffin_1.mp3'}, {'speaker': 'Stewie Griffin', 'start': 1.933061224489796, 'duration': 3.8922448979591837, 'filename': 'stewie_griffin_2.mp3'}, {'speaker': 'Peter Griffin', 'start': 5.82530612244898, 'duration': 2.1681632653061222, 'filename': 'peter_griffin_3.mp3'}, {'speaker': 'Stewie Griffin', 'start': 7.993469387755102, 'duration': 5.015510204081632, 'filename': 'stewie_griffin_4.mp3'}, {'speaker': 'Peter Griffin', 'start': 13.008979591836734, 'duration': 2.455510204081633, 'filename': 'peter_griffin_5.mp3'}, {'speaker': 'Stewie Griffin', 'start': 15.464489795918368, 'duration': 7.053061224489796, 'filename': 'stewie_griffin_6.mp3'}, {'speaker': 'Peter Griffin', 'start': 22.517551020408163, 'duration': 2.1681632653061222, 'filename': 'peter_griffin_7.mp3'}, {'speaker': 'Stewie Griffin', 'start': 24.685714285714287, 'duration': 4.2057142857142855, 'filename': 'stewie_griffin_8.mp3'}, {'speaker': 'Peter Griffin', 'start': 28.891428571428573, 'duration': 3.369795918367347, 'filename': 'peter_griffin_9.mp3'}, {'speaker': 'Stewie Griffin', 'start': 32.26122448979592, 'duration': 3.84, 'filename': 'stewie_griffin_10.mp3'}, {'speaker': 'Peter Griffin', 'start': 36.101224489795925, 'duration': 3.186938775510204, 'filename': 'peter_griffin_11.mp3'}, {'speaker': 'Stewie Griffin', 'start': 39.28816326530613, 'duration': 3.239183673469388, 'filename': 'stewie_griffin_12.mp3'}, {'speaker': 'Peter Griffin', 'start': 42.52734693877552, 'duration': 1.619591836734694, 'filename': 'peter_griffin_13.mp3'}, {'speaker': 'Stewie Griffin', 'start': 44.146938775510215, 'duration': 1.4889795918367348, 'filename': 'stewie_griffin_14.mp3'}]}
+EVENT: Event
+CONTENT: None
+EVENT: Event
+CONTENT: None
+Editing video with parameters: {'timestamps': [{'duration': 1.933061224489796, 'start': 0, 'speaker': 'Peter Griffin'}, {'duration': 3.8922448979591837, 'speaker': 'Stewie Griffin', 'start': 1.933061224489796}, {'speaker': 'Peter Griffin', 'start': 5.82530612244898, 'duration': 2.1681632653061222}, {'duration': 5.015510204081632, 'speaker': 'Stewie Griffin', 'start': 7.993469387755102}, {'speaker': 'Peter Griffin', 'duration': 2.455510204081633, 'start': 13.008979591836734}, {'start': 15.464489795918368, 'duration': 7.053061224489796, 'speaker': 'Stewie Griffin'}, {'duration': 2.1681632653061222, 'speaker': 'Peter Griffin', 'start': 22.517551020408163}, {'duration': 4.2057142857142855, 'start': 24.685714285714287, 'speaker': 'Stewie Griffin'}, {'speaker': 'Peter Griffin', 'start': 28.891428571428573, 'duration': 3.369795918367347}, {'speaker': 'Stewie Griffin', 'duration': 3.84, 'start': 32.26122448979592}, {'start': 36.101224489795925, 'duration': 3.186938775510204, 'speaker': 'Peter Griffin'}, {'duration': 3.239183673469388, 'speaker': 'Stewie Griffin', 'start': 39.28816326530613}, {'duration': 1.619591836734694, 'speaker': 'Peter Griffin', 'start': 42.52734693877552}, {'start': 44.146938775510215, 'speaker': 'Stewie Griffin', 'duration': 1.4889795918367348}], 'audio_path': 'media/generated/audio/final_audio.mp3'}, {'Peter Griffin': '/home/vedansh/doomteach_v3_parent/doomteach_v3/generator/../media/stickers/petergriffin.png', 'Stewie Griffin': '/home/vedansh/doomteach_v3_parent/doomteach_v3/generator/../media/stickers/stewiegriffin.png'}, ['Peter Griffin', 'Stewie Griffin'], media/bg_videos/vid1.mp4, media/generated/audio/final_audio.mp3, media/generated/video/
+tts_output in FILE video_editing_tool.py: {'timestamps': [{'duration': 1.933061224489796, 'start': 0, 'speaker': 'Peter Griffin'}, {'duration': 3.8922448979591837, 'speaker': 'Stewie Griffin', 'start': 1.933061224489796}, {'speaker': 'Peter Griffin', 'start': 5.82530612244898, 'duration': 2.1681632653061222}, {'duration': 5.015510204081632, 'speaker': 'Stewie Griffin', 'start': 7.993469387755102}, {'speaker': 'Peter Griffin', 'duration': 2.455510204081633, 'start': 13.008979591836734}, {'start': 15.464489795918368, 'duration': 7.053061224489796, 'speaker': 'Stewie Griffin'}, {'duration': 2.1681632653061222, 'speaker': 'Peter Griffin', 'start': 22.517551020408163}, {'duration': 4.2057142857142855, 'start': 24.685714285714287, 'speaker': 'Stewie Griffin'}, {'speaker': 'Peter Griffin', 'start': 28.891428571428573, 'duration': 3.369795918367347}, {'speaker': 'Stewie Griffin', 'duration': 3.84, 'start': 32.26122448979592}, {'start': 36.101224489795925, 'duration': 3.186938775510204, 'speaker': 'Peter Griffin'}, {'duration': 3.239183673469388, 'speaker': 'Stewie Griffin', 'start': 39.28816326530613}, {'duration': 1.619591836734694, 'speaker': 'Peter Griffin', 'start': 42.52734693877552}, {'start': 44.146938775510215, 'speaker': 'Stewie Griffin', 'duration': 1.4889795918367348}], 'audio_path': 'media/generated/audio/final_audio.mp3'}
+inside create video with stickers
+tts_output in FILE video_editing.py: {'timestamps': [{'duration': 1.933061224489796, 'start': 0, 'speaker': 'Peter Griffin'}, {'duration': 3.8922448979591837, 'speaker': 'Stewie Griffin', 'start': 1.933061224489796}, {'speaker': 'Peter Griffin', 'start': 5.82530612244898, 'duration': 2.1681632653061222}, {'duration': 5.015510204081632, 'speaker': 'Stewie Griffin', 'start': 7.993469387755102}, {'speaker': 'Peter Griffin', 'duration': 2.455510204081633, 'start': 13.008979591836734}, {'start': 15.464489795918368, 'duration': 7.053061224489796, 'speaker': 'Stewie Griffin'}, {'duration': 2.1681632653061222, 'speaker': 'Peter Griffin', 'start': 22.517551020408163}, {'duration': 4.2057142857142855, 'start': 24.685714285714287, 'speaker': 'Stewie Griffin'}, {'speaker': 'Peter Griffin', 'start': 28.891428571428573, 'duration': 3.369795918367347}, {'speaker': 'Stewie Griffin', 'duration': 3.84, 'start': 32.26122448979592}, {'start': 36.101224489795925, 'duration': 3.186938775510204, 'speaker': 'Peter Griffin'}, {'duration': 3.239183673469388, 'speaker': 'Stewie Griffin', 'start': 39.28816326530613}, {'duration': 1.619591836734694, 'speaker': 'Peter Griffin', 'start': 42.52734693877552}, {'start': 44.146938775510215, 'speaker': 'Stewie Griffin', 'duration': 1.4889795918367348}], 'audio_path': 'media/generated/audio/final_audio.mp3'}
+Total clips to composite: 2 (1 video + 1 overlays)
+Total clips to composite: 3 (1 video + 2 overlays)
+Total clips to composite: 4 (1 video + 3 overlays)
+Total clips to composite: 5 (1 video + 4 overlays)
+Total clips to composite: 6 (1 video + 5 overlays)
+Total clips to composite: 7 (1 video + 6 overlays)
+Total clips to composite: 8 (1 video + 7 overlays)
+Total clips to composite: 9 (1 video + 8 overlays)
+Total clips to composite: 10 (1 video + 9 overlays)
+Total clips to composite: 11 (1 video + 10 overlays)
+Total clips to composite: 12 (1 video + 11 overlays)
+Total clips to composite: 13 (1 video + 12 overlays)
+Total clips to composite: 14 (1 video + 13 overlays)
+Total clips to composite: 15 (1 video + 14 overlays)
+Generating subtitles for /home/vedansh/doomteach_v3_parent/doomteach_v3/media/generated/audio/final_audio.mp3
+Subtitles generated and saved to /home/vedansh/doomteach_v3_parent/doomteach_v3/subtitles.srt
+EVENT: Event
+CONTENT: None
+EVENT: Event
+CONTENT: The video generation is complete. The final video is located at /home/vedansh/doomteach_v3_parent/doomteach_v3/media/generated/video/doom_video_with_subs.mp4.
+
+STATUS: RootAgent completed successfully.

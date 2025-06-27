@@ -71,7 +71,7 @@ router.post('/upload-video', async (req, res) => {
   oauth2Client.setCredentials(req.session.tokens);
 
   const youtube = google.youtube({ version: 'v3', auth: oauth2Client });
-  const videoPath = path.join(__dirname, '../../media/final_video.mp4');
+  const videoPath = path.join(__dirname, '../../media/generated/video/doom_video_with_subs.mp4');
 
   if (!fs.existsSync(videoPath)) {
     return res.status(404).send('Video file not found');
