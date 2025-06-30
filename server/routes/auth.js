@@ -86,7 +86,7 @@ router.post('/upload-video', async (req, res) => {
           description: '#shorts #doomteach #brainrot',
         },
         status: {
-          privacyStatus: 'unlisted',
+          privacyStatus: 'public',
         },
       },
       media: {

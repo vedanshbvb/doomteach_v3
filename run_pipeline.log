@@ -1,55 +1,60 @@
-STATUS: Starting pipeline for prompt: a very short conversation between Donald Trump and Elon Musk about AWS
+STATUS: Starting pipeline for prompt: a very short conversation between Peter Griffin and Donald Trump about Docker
 STATUS: Session created.
 STATUS: Running RootAgent...
 EVENT: Event
-CONTENT: Okay, I can create a video based on that prompt. First, I need to generate a script using the ScriptAgent.
+CONTENT: Okay, I can help you create a short video of Peter Griffin and Donald Trump talking about Docker. Here's the plan:
+
+1.  **Generate a script:** I'll use the `ScriptAgent` to create a brief script for the conversation.
+2.  **Identify characters:** I'll use the `IdentifyCharactersAgent` to confirm the character names.
+3.  **Generate audio and timeline:** I'll use the `VoiceAgent` to create the audio files and timeline.
+4.  **Create the video:** I'll use the `VideoAgent` to combine the audio, character images, and subtitles into a final video.
+
+Let's start with the script generation.
+
 
 STATUS: Starting script generation...
 Generated script: {
-"Donald Trump": "Elon, folks, I'm telling you, AWS is a tremendous platform, believe me.",
-"Elon Musk": "Ah, Donald, AWS is a comprehensive cloud computing platform that offers a wide range of services.",
-"Donald Trump": "That's right, Elon, it's a big league platform, the best, the greatest, the fantastic-est.",
-"Elon Musk": "AWS provides services such as compute, storage, database, analytics, machine learning, and more.",
-"Donald Trump": "I see, so it's like a big league hotel for your data?",
-"Elon Musk": "Exactly, Donald! And AWS has a global infrastructure with 24/7 support and a wide range of tools and services.",
-"Donald Trump": "That's amazing, Elon, you're a genius, a real winner.",
-"Elon Musk": "Thanks, Donald, I'm just trying to help people understand this complex technology.",
-"Donald Trump": "Complex? AWS is not complex, it's simple, it's easy, it's tremendous.",
-"Elon Musk": "Well, I'm glad we could have this conversation, Donald.",
-"Donald Trump": "Me too, Elon, me too.",
-"Elon Musk": "What about AWS Lambda, Donald?",
-"Donald Trump": "Ah, great question, Elon. AWS Lambda is a serverless compute service that allows you to run code without provisioning or managing servers.",
-"Elon Musk": "Exactly, and it's event-driven, so you only pay for what you use.",
-"Donald Trump": "That's right, Elon, you're a true AWS expert.",
-"Elon Musk": "Thanks, Donald, I'm just trying to help people learn about AWS.",
-"Donald Trump": "Well, you're doing a great job, Elon.",
-"Elon Musk": "Thanks, Donald."}
+"Peter Griffin": "Donald, what's this Docker thingy I've been hearing about?",
+"Donald Trump": "Ah, Peter, Docker is a tremendous technology, believe me. It's a containerization platform that allows developers to package, ship, and run applications in containers.",
+"Peter Griffin": "Containers? Like the ones I use to store my beer?",
+"Donald Trump": "No, no, Peter. It's not the same thing. Docker containers are lightweight and portable, making it easy to deploy and scale applications.",
+"Peter Griffin": "I see, so it's like a special box for my apps?",
+"Donald Trump": "Exactly, Peter! And Docker has a huge community of developers and users who contribute to its ecosystem.",
+"Peter Griffin": "Wow, that's a lot of people. How do I get started with Docker?",
+"Donald Trump": "Well, Peter, you can start by learning about Docker's core concepts, such as images, containers, and volumes.",
+"Peter Griffin": "Images? Like the ones I take with my camera?",
+"Donald Trump": "Ha! No, Peter. Docker images are templates for building containers. And volumes are a way to persist data in containers.",
+"Peter Griffin": "Okay, got it. Thanks, Donald.",
+"Donald Trump": "You're welcome, Peter. Docker is going to be huge, just huge."}
 
 
 
 script done
-Parsed script: [['Donald Trump', "Elon, folks, I'm telling you, AWS is a tremendous platform, believe me."], ['Elon Musk', 'Ah, Donald, AWS is a comprehensive cloud computing platform that offers a wide range of services.'], ['Donald Trump', "That's right, Elon, it's a big league platform, the best, the greatest, the fantastic-est."], ['Elon Musk', 'AWS provides services such as compute, storage, database, analytics, machine learning, and more.'], ['Donald Trump', "I see, so it's like a big league hotel for your data?"], ['Elon Musk', 'Exactly, Donald! And AWS has a global infrastructure with 24/7 support and a wide range of tools and services.'], ['Donald Trump', "That's amazing, Elon, you're a genius, a real winner."], ['Elon Musk', "Thanks, Donald, I'm just trying to help people understand this complex technology."], ['Donald Trump', "Complex? AWS is not complex, it's simple, it's easy, it's tremendous."], ['Elon Musk', "Well, I'm glad we could have this conversation, Donald."], ['Donald Trump', 'Me too, Elon, me too.'], ['Elon Musk', 'What about AWS Lambda, Donald?'], ['Donald Trump', 'Ah, great question, Elon. AWS Lambda is a serverless compute service that allows you to run code without provisioning or managing servers.'], ['Elon Musk', "Exactly, and it's event-driven, so you only pay for what you use."], ['Donald Trump', "That's right, Elon, you're a true AWS expert."], ['Elon Musk', "Thanks, Donald, I'm just trying to help people learn about AWS."], ['Donald Trump', "Well, you're doing a great job, Elon."], ['Elon Musk', 'Thanks, Donald.']]
+Parsed script: [['Peter Griffin', "Donald, what's this Docker thingy I've been hearing about?"], ['Donald Trump', "Ah, Peter, Docker is a tremendous technology, believe me. It's a containerization platform that allows developers to package, ship, and run applications in containers."], ['Peter Griffin', 'Containers? Like the ones I use to store my beer?'], ['Donald Trump', "No, no, Peter. It's not the same thing. Docker containers are lightweight and portable, making it easy to deploy and scale applications."], ['Peter Griffin', "I see, so it's like a special box for my apps?"], ['Donald Trump', 'Exactly, Peter! And Docker has a huge community of developers and users who contribute to its ecosystem.'], ['Peter Griffin', "Wow, that's a lot of people. How do I get started with Docker?"], ['Donald Trump', "Well, Peter, you can start by learning about Docker's core concepts, such as images, containers, and volumes."], ['Peter Griffin', 'Images? Like the ones I take with my camera?'], ['Donald Trump', 'Ha! No, Peter. Docker images are templates for building containers. And volumes are a way to persist data in containers.'], ['Peter Griffin', 'Okay, got it. Thanks, Donald.'], ['Donald Trump', "You're welcome, Peter. Docker is going to be huge, just huge."]]
 EVENT: Event
 CONTENT: None
 EVENT: Event
-CONTENT: Okay, I have the script. Now I need to identify the characters involved so that the video agent can use the correct images.
+CONTENT: Okay, I have the script. Now, let's identify the characters.
+
 
 EVENT: Event
 CONTENT: None
 EVENT: Event
-CONTENT: Great, I have the characters. Now I need to generate the audio using the VoiceAgent.
+CONTENT: Great, the characters are Peter Griffin and Donald Trump. Now I'll generate the audio and timeline using the VoiceAgent.
+
 
 STATUS: Starting AUDIO generation...
-tts_output RECEIVED BY TTS TOOL: {'audio_path': 'media/generated/audio/final_audio.wav', 'timestamps': [{'speaker': 'Donald Trump', 'start': 0.0, 'duration': 4.30728125, 'filename': 'donald_trump_1_83097122.wav'}, {'speaker': 'Elon Musk', 'start': 4.30728125, 'duration': 5.75853125, 'filename': 'elon_musk_2_b77f2d44.wav'}, {'speaker': 'Donald Trump', 'start': 10.0658125, 'duration': 5.503125, 'filename': 'donald_trump_3_252a5f20.wav'}, {'speaker': 'Elon Musk', 'start': 15.5689375, 'duration': 6.8034375, 'filename': 'elon_musk_4_7a4823f2.wav'}, {'speaker': 'Donald Trump', 'start': 22.372375, 'duration': 3.4249375, 'filename': 'donald_trump_5_c49d11b2.wav'}, {'speaker': 'Elon Musk', 'start': 25.7973125, 'duration': 7.48840625, 'filename': 'elon_musk_6_ea078cd3.wav'}, {'speaker': 'Donald Trump', 'start': 33.28571875, 'duration': 3.09984375, 'filename': 'donald_trump_7_787586a4.wav'}, {'speaker': 'Elon Musk', 'start': 36.3855625, 'duration': 3.78484375, 'filename': 'elon_musk_8_981d88ed.wav'}, {'speaker': 'Donald Trump', 'start': 40.17040625, 'duration': 5.294125, 'filename': 'donald_trump_9_a7cadbd9.wav'}, {'speaker': 'Elon Musk', 'start': 45.46453125, 'duration': 2.82121875, 'filename': 'elon_musk_10_006c71b8.wav'}, {'speaker': 'Donald Trump', 'start': 48.28575, 'duration': 1.81115625, 'filename': 'donald_trump_11_2fcd0cf0.wav'}, {'speaker': 'Elon Musk', 'start': 50.09690625, 'duration': 1.64859375, 'filename': 'elon_musk_12_3722d0df.wav'}, {'speaker': 'Donald Trump', 'start': 51.74550000000001, 'duration': 9.03253125, 'filename': 'donald_trump_13_e2a219a3.wav'}, {'speaker': 'Elon Musk', 'start': 60.778031250000005, 'duration': 4.527875, 'filename': 'elon_musk_14_70718370.wav'}, {'speaker': 'Donald Trump', 'start': 65.30590625, 'duration': 3.4249375, 'filename': 'donald_trump_15_f871da03.wav'}, {'speaker': 'Elon Musk', 'start': 68.73084375, 'duration': 3.15790625, 'filename': 'elon_musk_16_cd7d4f3d.wav'}, {'speaker': 'Donald Trump', 'start': 71.88875, 'duration': 2.8328125, 'filename': 'donald_trump_17_afebc2a3.wav'}, {'speaker': 'Elon Musk', 'start': 74.7215625, 'duration': 0.9984375, 'filename': 'elon_musk_18_35a06282.wav'}]}
+tts_output RECEIVED BY TTS TOOL: {'audio_path': 'media/generated/audio/final_audio.wav', 'timestamps': [{'speaker': 'Peter Griffin', 'start': 0.0, 'duration': 2.85603125, 'filename': 'peter_griffin_1_166cef24.wav'}, {'speaker': 'Donald Trump', 'start': 2.85603125, 'duration': 10.7508125, 'filename': 'donald_trump_2_59402468.wav'}, {'speaker': 'Peter Griffin', 'start': 13.60684375, 'duration': 3.262375, 'filename': 'peter_griffin_3_5d11f262.wav'}, {'speaker': 'Donald Trump', 'start': 16.869218749999998, 'duration': 7.77865625, 'filename': 'donald_trump_4_f7dd41e1.wav'}, {'speaker': 'Peter Griffin', 'start': 24.647875, 'duration': 2.67028125, 'filename': 'peter_griffin_5_ca63a731.wav'}, {'speaker': 'Donald Trump', 'start': 27.318156249999998, 'duration': 7.19815625, 'filename': 'donald_trump_6_c09a7d07.wav'}, {'speaker': 'Peter Griffin', 'start': 34.5163125, 'duration': 3.262375, 'filename': 'peter_griffin_7_69b382f4.wav'}, {'speaker': 'Donald Trump', 'start': 37.7786875, 'duration': 6.7918125, 'filename': 'donald_trump_8_0a6c4df7.wav'}, {'speaker': 'Peter Griffin', 'start': 44.570499999999996, 'duration': 2.9373125, 'filename': 'peter_griffin_9_8a6f6ed5.wav'}, {'speaker': 'Donald Trump', 'start': 47.50781249999999, 'duration': 7.83671875, 'filename': 'donald_trump_10_cea7d031.wav'}, {'speaker': 'Peter Griffin', 'start': 55.344531249999996, 'duration': 2.07815625, 'filename': 'peter_griffin_11_55938a77.wav'}, {'speaker': 'Donald Trump', 'start': 57.422687499999995, 'duration': 3.8545, 'filename': 'donald_trump_12_005d4fe2.wav'}]}
 EVENT: Event
 CONTENT: None
 EVENT: Event
-CONTENT: Okay, I have the audio and timestamps. Now I can generate the video with stickers and subtitles using the VideoAgent.
+CONTENT: Okay, I have the audio path and timestamps. Now, I'll use the VideoAgent to create the video with stickers and subtitles.
 
-Editing video with parameters: {'audio_path': 'media/generated/audio/final_audio.wav', 'timestamps': [{'start': 0, 'speaker': 'Donald Trump', 'duration': 4.30728125, 'filename': 'donald_trump_1_83097122.wav'}, {'filename': 'elon_musk_2_b77f2d44.wav', 'duration': 5.75853125, 'start': 4.30728125, 'speaker': 'Elon Musk'}, {'duration': 5.503125, 'start': 10.0658125, 'speaker': 'Donald Trump', 'filename': 'donald_trump_3_252a5f20.wav'}, {'filename': 'elon_musk_4_7a4823f2.wav', 'duration': 6.8034375, 'speaker': 'Elon Musk', 'start': 15.5689375}, {'start': 22.372375, 'filename': 'donald_trump_5_c49d11b2.wav', 'duration': 3.4249375, 'speaker': 'Donald Trump'}, {'filename': 'elon_musk_6_ea078cd3.wav', 'start': 25.7973125, 'duration': 7.48840625, 'speaker': 'Elon Musk'}, {'duration': 3.09984375, 'start': 33.28571875, 'speaker': 'Donald Trump', 'filename': 'donald_trump_7_787586a4.wav'}, {'duration': 3.78484375, 'start': 36.3855625, 'speaker': 'Elon Musk', 'filename': 'elon_musk_8_981d88ed.wav'}, {'start': 40.17040625, 'speaker': 'Donald Trump', 'duration': 5.294125, 'filename': 'donald_trump_9_a7cadbd9.wav'}, {'speaker': 'Elon Musk', 'filename': 'elon_musk_10_006c71b8.wav', 'start': 45.46453125, 'duration': 2.82121875}, {'filename': 'donald_trump_11_2fcd0cf0.wav', 'start': 48.28575, 'speaker': 'Donald Trump', 'duration': 1.81115625}, {'duration': 1.64859375, 'start': 50.09690625, 'filename': 'elon_musk_12_3722d0df.wav', 'speaker': 'Elon Musk'}, {'speaker': 'Donald Trump', 'duration': 9.03253125, 'filename': 'donald_trump_13_e2a219a3.wav', 'start': 51.74550000000001}, {'start': 60.778031250000005, 'duration': 4.527875, 'speaker': 'Elon Musk', 'filename': 'elon_musk_14_70718370.wav'}, {'filename': 'donald_trump_15_f871da03.wav', 'speaker': 'Donald Trump', 'duration': 3.4249375, 'start': 65.30590625}, {'speaker': 'Elon Musk', 'duration': 3.15790625, 'filename': 'elon_musk_16_cd7d4f3d.wav', 'start': 68.73084375}, {'duration': 2.8328125, 'start': 71.88875, 'speaker': 'Donald Trump', 'filename': 'donald_trump_17_afebc2a3.wav'}, {'duration': 0.9984375, 'speaker': 'Elon Musk', 'start': 74.7215625, 'filename': 'elon_musk_18_35a06282.wav'}]}, {'Elon Musk': '/home/vedansh/doomteach_v3_parent/doomteach_v3/generator/../media/stickers/elonmusk.png', 'Donald Trump': '/home/vedansh/doomteach_v3_parent/doomteach_v3/generator/../media/stickers/donaldtrump.png'}, ['Donald Trump', 'Elon Musk'], media/bg_videos/vid1.mp4, media/generated/audio/final_audio.wav, media/generated/video
-tts_output in FILE video_editing_tool.py: {'audio_path': 'media/generated/audio/final_audio.wav', 'timestamps': [{'start': 0, 'speaker': 'Donald Trump', 'duration': 4.30728125, 'filename': 'donald_trump_1_83097122.wav'}, {'filename': 'elon_musk_2_b77f2d44.wav', 'duration': 5.75853125, 'start': 4.30728125, 'speaker': 'Elon Musk'}, {'duration': 5.503125, 'start': 10.0658125, 'speaker': 'Donald Trump', 'filename': 'donald_trump_3_252a5f20.wav'}, {'filename': 'elon_musk_4_7a4823f2.wav', 'duration': 6.8034375, 'speaker': 'Elon Musk', 'start': 15.5689375}, {'start': 22.372375, 'filename': 'donald_trump_5_c49d11b2.wav', 'duration': 3.4249375, 'speaker': 'Donald Trump'}, {'filename': 'elon_musk_6_ea078cd3.wav', 'start': 25.7973125, 'duration': 7.48840625, 'speaker': 'Elon Musk'}, {'duration': 3.09984375, 'start': 33.28571875, 'speaker': 'Donald Trump', 'filename': 'donald_trump_7_787586a4.wav'}, {'duration': 3.78484375, 'start': 36.3855625, 'speaker': 'Elon Musk', 'filename': 'elon_musk_8_981d88ed.wav'}, {'start': 40.17040625, 'speaker': 'Donald Trump', 'duration': 5.294125, 'filename': 'donald_trump_9_a7cadbd9.wav'}, {'speaker': 'Elon Musk', 'filename': 'elon_musk_10_006c71b8.wav', 'start': 45.46453125, 'duration': 2.82121875}, {'filename': 'donald_trump_11_2fcd0cf0.wav', 'start': 48.28575, 'speaker': 'Donald Trump', 'duration': 1.81115625}, {'duration': 1.64859375, 'start': 50.09690625, 'filename': 'elon_musk_12_3722d0df.wav', 'speaker': 'Elon Musk'}, {'speaker': 'Donald Trump', 'duration': 9.03253125, 'filename': 'donald_trump_13_e2a219a3.wav', 'start': 51.74550000000001}, {'start': 60.778031250000005, 'duration': 4.527875, 'speaker': 'Elon Musk', 'filename': 'elon_musk_14_70718370.wav'}, {'filename': 'donald_trump_15_f871da03.wav', 'speaker': 'Donald Trump', 'duration': 3.4249375, 'start': 65.30590625}, {'speaker': 'Elon Musk', 'duration': 3.15790625, 'filename': 'elon_musk_16_cd7d4f3d.wav', 'start': 68.73084375}, {'duration': 2.8328125, 'start': 71.88875, 'speaker': 'Donald Trump', 'filename': 'donald_trump_17_afebc2a3.wav'}, {'duration': 0.9984375, 'speaker': 'Elon Musk', 'start': 74.7215625, 'filename': 'elon_musk_18_35a06282.wav'}]}
+
+Editing video with parameters: {'audio_path': 'media/generated/audio/final_audio.wav', 'timestamps': [{'speaker': 'Peter Griffin', 'start': 0, 'duration': 2.85603125, 'filename': 'peter_griffin_1_166cef24.wav'}, {'duration': 10.7508125, 'filename': 'donald_trump_2_59402468.wav', 'speaker': 'Donald Trump', 'start': 2.85603125}, {'speaker': 'Peter Griffin', 'duration': 3.262375, 'filename': 'peter_griffin_3_5d11f262.wav', 'start': 13.60684375}, {'speaker': 'Donald Trump', 'start': 16.869218749999998, 'duration': 7.77865625, 'filename': 'donald_trump_4_f7dd41e1.wav'}, {'start': 24.647875, 'speaker': 'Peter Griffin', 'duration': 2.67028125, 'filename': 'peter_griffin_5_ca63a731.wav'}, {'speaker': 'Donald Trump', 'duration': 7.19815625, 'filename': 'donald_trump_6_c09a7d07.wav', 'start': 27.318156249999998}, {'speaker': 'Peter Griffin', 'start': 34.5163125, 'duration': 3.262375, 'filename': 'peter_griffin_7_69b382f4.wav'}, {'start': 37.7786875, 'speaker': 'Donald Trump', 'filename': 'donald_trump_8_0a6c4df7.wav', 'duration': 6.7918125}, {'duration': 2.9373125, 'start': 44.570499999999996, 'filename': 'peter_griffin_9_8a6f6ed5.wav', 'speaker': 'Peter Griffin'}, {'speaker': 'Donald Trump', 'duration': 7.83671875, 'filename': 'donald_trump_10_cea7d031.wav', 'start': 47.50781249999999}, {'speaker': 'Peter Griffin', 'start': 55.344531249999996, 'duration': 2.07815625, 'filename': 'peter_griffin_11_55938a77.wav'}, {'start': 57.422687499999995, 'duration': 3.8545, 'speaker': 'Donald Trump', 'filename': 'donald_trump_12_005d4fe2.wav'}]}, {'Donald Trump': '/home/vedansh/doomteach_v3_parent/doomteach_v3/generator/../media/stickers/donaldtrump.png', 'Peter Griffin': '/home/vedansh/doomteach_v3_parent/doomteach_v3/generator/../media/stickers/petergriffin.png'}, ['Peter Griffin', 'Donald Trump'], media/bg_videos/vid1.mp4, media/generated/audio/final_audio.wav, media/generated/video
+tts_output in FILE video_editing_tool.py: {'audio_path': 'media/generated/audio/final_audio.wav', 'timestamps': [{'speaker': 'Peter Griffin', 'start': 0, 'duration': 2.85603125, 'filename': 'peter_griffin_1_166cef24.wav'}, {'duration': 10.7508125, 'filename': 'donald_trump_2_59402468.wav', 'speaker': 'Donald Trump', 'start': 2.85603125}, {'speaker': 'Peter Griffin', 'duration': 3.262375, 'filename': 'peter_griffin_3_5d11f262.wav', 'start': 13.60684375}, {'speaker': 'Donald Trump', 'start': 16.869218749999998, 'duration': 7.77865625, 'filename': 'donald_trump_4_f7dd41e1.wav'}, {'start': 24.647875, 'speaker': 'Peter Griffin', 'duration': 2.67028125, 'filename': 'peter_griffin_5_ca63a731.wav'}, {'speaker': 'Donald Trump', 'duration': 7.19815625, 'filename': 'donald_trump_6_c09a7d07.wav', 'start': 27.318156249999998}, {'speaker': 'Peter Griffin', 'start': 34.5163125, 'duration': 3.262375, 'filename': 'peter_griffin_7_69b382f4.wav'}, {'start': 37.7786875, 'speaker': 'Donald Trump', 'filename': 'donald_trump_8_0a6c4df7.wav', 'duration': 6.7918125}, {'duration': 2.9373125, 'start': 44.570499999999996, 'filename': 'peter_griffin_9_8a6f6ed5.wav', 'speaker': 'Peter Griffin'}, {'speaker': 'Donald Trump', 'duration': 7.83671875, 'filename': 'donald_trump_10_cea7d031.wav', 'start': 47.50781249999999}, {'speaker': 'Peter Griffin', 'start': 55.344531249999996, 'duration': 2.07815625, 'filename': 'peter_griffin_11_55938a77.wav'}, {'start': 57.422687499999995, 'duration': 3.8545, 'speaker': 'Donald Trump', 'filename': 'donald_trump_12_005d4fe2.wav'}]}
 inside create video with stickers
-tts_output in FILE video_editing.py: {'audio_path': 'media/generated/audio/final_audio.wav', 'timestamps': [{'start': 0, 'speaker': 'Donald Trump', 'duration': 4.30728125, 'filename': 'donald_trump_1_83097122.wav'}, {'filename': 'elon_musk_2_b77f2d44.wav', 'duration': 5.75853125, 'start': 4.30728125, 'speaker': 'Elon Musk'}, {'duration': 5.503125, 'start': 10.0658125, 'speaker': 'Donald Trump', 'filename': 'donald_trump_3_252a5f20.wav'}, {'filename': 'elon_musk_4_7a4823f2.wav', 'duration': 6.8034375, 'speaker': 'Elon Musk', 'start': 15.5689375}, {'start': 22.372375, 'filename': 'donald_trump_5_c49d11b2.wav', 'duration': 3.4249375, 'speaker': 'Donald Trump'}, {'filename': 'elon_musk_6_ea078cd3.wav', 'start': 25.7973125, 'duration': 7.48840625, 'speaker': 'Elon Musk'}, {'duration': 3.09984375, 'start': 33.28571875, 'speaker': 'Donald Trump', 'filename': 'donald_trump_7_787586a4.wav'}, {'duration': 3.78484375, 'start': 36.3855625, 'speaker': 'Elon Musk', 'filename': 'elon_musk_8_981d88ed.wav'}, {'start': 40.17040625, 'speaker': 'Donald Trump', 'duration': 5.294125, 'filename': 'donald_trump_9_a7cadbd9.wav'}, {'speaker': 'Elon Musk', 'filename': 'elon_musk_10_006c71b8.wav', 'start': 45.46453125, 'duration': 2.82121875}, {'filename': 'donald_trump_11_2fcd0cf0.wav', 'start': 48.28575, 'speaker': 'Donald Trump', 'duration': 1.81115625}, {'duration': 1.64859375, 'start': 50.09690625, 'filename': 'elon_musk_12_3722d0df.wav', 'speaker': 'Elon Musk'}, {'speaker': 'Donald Trump', 'duration': 9.03253125, 'filename': 'donald_trump_13_e2a219a3.wav', 'start': 51.74550000000001}, {'start': 60.778031250000005, 'duration': 4.527875, 'speaker': 'Elon Musk', 'filename': 'elon_musk_14_70718370.wav'}, {'filename': 'donald_trump_15_f871da03.wav', 'speaker': 'Donald Trump', 'duration': 3.4249375, 'start': 65.30590625}, {'speaker': 'Elon Musk', 'duration': 3.15790625, 'filename': 'elon_musk_16_cd7d4f3d.wav', 'start': 68.73084375}, {'duration': 2.8328125, 'start': 71.88875, 'speaker': 'Donald Trump', 'filename': 'donald_trump_17_afebc2a3.wav'}, {'duration': 0.9984375, 'speaker': 'Elon Musk', 'start': 74.7215625, 'filename': 'elon_musk_18_35a06282.wav'}]}
+tts_output in FILE video_editing.py: {'audio_path': 'media/generated/audio/final_audio.wav', 'timestamps': [{'speaker': 'Peter Griffin', 'start': 0, 'duration': 2.85603125, 'filename': 'peter_griffin_1_166cef24.wav'}, {'duration': 10.7508125, 'filename': 'donald_trump_2_59402468.wav', 'speaker': 'Donald Trump', 'start': 2.85603125}, {'speaker': 'Peter Griffin', 'duration': 3.262375, 'filename': 'peter_griffin_3_5d11f262.wav', 'start': 13.60684375}, {'speaker': 'Donald Trump', 'start': 16.869218749999998, 'duration': 7.77865625, 'filename': 'donald_trump_4_f7dd41e1.wav'}, {'start': 24.647875, 'speaker': 'Peter Griffin', 'duration': 2.67028125, 'filename': 'peter_griffin_5_ca63a731.wav'}, {'speaker': 'Donald Trump', 'duration': 7.19815625, 'filename': 'donald_trump_6_c09a7d07.wav', 'start': 27.318156249999998}, {'speaker': 'Peter Griffin', 'start': 34.5163125, 'duration': 3.262375, 'filename': 'peter_griffin_7_69b382f4.wav'}, {'start': 37.7786875, 'speaker': 'Donald Trump', 'filename': 'donald_trump_8_0a6c4df7.wav', 'duration': 6.7918125}, {'duration': 2.9373125, 'start': 44.570499999999996, 'filename': 'peter_griffin_9_8a6f6ed5.wav', 'speaker': 'Peter Griffin'}, {'speaker': 'Donald Trump', 'duration': 7.83671875, 'filename': 'donald_trump_10_cea7d031.wav', 'start': 47.50781249999999}, {'speaker': 'Peter Griffin', 'start': 55.344531249999996, 'duration': 2.07815625, 'filename': 'peter_griffin_11_55938a77.wav'}, {'start': 57.422687499999995, 'duration': 3.8545, 'speaker': 'Donald Trump', 'filename': 'donald_trump_12_005d4fe2.wav'}]}
 Total clips to composite: 2 (1 video + 1 overlays)
 Total clips to composite: 3 (1 video + 2 overlays)
 Total clips to composite: 4 (1 video + 3 overlays)
@@ -62,39 +67,11 @@ Total clips to composite: 10 (1 video + 9 overlays)
 Total clips to composite: 11 (1 video + 10 overlays)
 Total clips to composite: 12 (1 video + 11 overlays)
 Total clips to composite: 13 (1 video + 12 overlays)
-Total clips to composite: 14 (1 video + 13 overlays)
-Total clips to composite: 15 (1 video + 14 overlays)
-Total clips to composite: 16 (1 video + 15 overlays)
-Total clips to composite: 17 (1 video + 16 overlays)
-Total clips to composite: 18 (1 video + 17 overlays)
-Total clips to composite: 19 (1 video + 18 overlays)
 Generating subtitles for /home/vedansh/doomteach_v3_parent/doomteach_v3/media/generated/audio/final_audio.wav
 Subtitles generated and saved to /home/vedansh/doomteach_v3_parent/doomteach_v3/subtitles.srt
 EVENT: Event
 CONTENT: None
 EVENT: Event
-CONTENT: Okay, the video has been generated and is located at media/generated/video/doom_video_with_subs.mp4.
+CONTENT: Okay, the video has been created and saved to `media/generated/video/doom_video_with_subs.mp4`.
 
 STATUS: RootAgent completed successfully.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
