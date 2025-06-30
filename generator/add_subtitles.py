@@ -15,7 +15,7 @@ def resolve_path(path):
 
 # === Constants ===
 
-AUDIO_PATH = resolve_path("media/generated/audio/final_audio.mp3")
+AUDIO_PATH = resolve_path("media/generated/audio/final_audio.wav")
 VIDEO_PATH = resolve_path("media/generated/video/")
 SRT_PATH = resolve_path("subtitles.srt")
 # LOG_FILE = resolve_path("generator/pipeline2.log")

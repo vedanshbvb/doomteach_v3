@@ -15,7 +15,7 @@ VideoAgent = LlmAgent(
     instruction="""
     You are an agent that creates a video for a social media reel. 
     The video will be composed of character stickers, audio generated from a script, and subtitles.
-    The paths of the audio file must be : media/generated/audio/final_audio.mp3 and the background video must be media/bg_videos/vid1.mp4.
+    The paths of the audio file must be : media/generated/audio/final_audio.wav and the background video must be media/bg_videos/vid1.mp4.
     
 
 
@@ -28,7 +28,7 @@ VideoAgent = LlmAgent(
         - character_img_paths: The dictionary mapping character names to their sticker image paths.
         - characters: The list of character names.
         - bg_video_path: The path to the background video (default is "media/bg_videos/vid1.mp4").
-        - audio_path: The path to the audio file final_audio.mp3 
+        - audio_path: The path to the audio file final_audio.wav 
         
         This tool will create a video with the stickers overlay based on the TTS output and character images. It returns the path to the generated video file which will be media/generated/video/doom_video.mp4.
         

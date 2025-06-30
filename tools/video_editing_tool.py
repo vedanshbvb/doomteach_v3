@@ -22,7 +22,7 @@ class VideoEditingTool(FunctionTool):
 
                 tts_output looks like this:
                 {
-                    "audio_path": "path/to/final_audio.mp3",
+                    "audio_path": "path/to/final_audio.wav",
                     "timestamps": [
                         {"speaker": "Donald Trump", "start": 0, "duration": 10, "filename": "donald_trump_1.mp3"},
                         {"speaker": "Elon Musk", "start": 10, "duration": 10, "filename": "elon_musk_2.mp3"}

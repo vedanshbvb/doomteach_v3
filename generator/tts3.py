@@ -112,7 +112,7 @@ class TTSPipeline:
             fname = f"{speaker.lower().replace(' ', '_')}_{idx}_{uid}.wav"
             path = os.path.join(tempdir, fname)
 
-            await asyncio.sleep(2)  
+            await asyncio.sleep(10)  
 
             duration = await self._synthesize(text, token, path)
             if duration > 0:

@@ -177,7 +177,7 @@ if __name__ == "__main__":
     else:
         # Fallback sample
         tts_output = {
-            "audio_path": "media/generated/audio/final_audio.mp3",
+            "audio_path": "media/generated/audio/final_audio.wav",
             "timestamps": [
                 {"speaker": "Superman", "start": 0.0, "duration": 1.51, "text": "Hello!"},
                 {"speaker": "Barbie", "start": 1.51, "duration": 5.32, "text": "Hi there!"},

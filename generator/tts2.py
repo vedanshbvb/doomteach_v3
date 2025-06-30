@@ -137,7 +137,7 @@ class TTSPipeline:
             clip = AudioSegment.from_file(path, format="mp3")
             combined += clip
 
-        final_path = os.path.join(tempdir, "final_audio.mp3")
+        final_path = os.path.join(tempdir, "final_audio.wav")
         combined.export(final_path, format="mp3")
 
         # self.log_line(f"final_path: {final_path}")
