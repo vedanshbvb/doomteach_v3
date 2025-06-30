@@ -10,31 +10,8 @@ DoomTeach is a Python-based pipeline for generating short, entertaining video re
 - **Sticker Download:** Downloads character images with transparent backgrounds.
 - **Video Editing:** Composes a video with background, stickers, subtitles, and audio.
 
-## Directory Structure
 
-```
-├── doomteach/
-    ├── client/  # React frontend
-    ├── server/  # Node.js backend
-    ├── generator/
-    │   ├── get_stickers.py
-    │   ├── pipeline.py
-    │   ├── pipeline2.py
-    │   ├── script_generator.py
-    │   ├── tts.py
-    │   ├── tts2.py
-    │   ├── video_editing.py
-    │   ├── voice_generator.py
-    │   ├── add_subtitles.py  
-    ├── media/
-        ├── bg_videos/
-        ├── stickers/
-        ├── generated/
-            ├── audio/
-            ├── video/
-       
 
-```
 
 ## Setup
 
