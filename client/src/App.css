@@ -82,6 +82,25 @@ body {
   color: #fff;
 }
 
+.prompt-form-button {
+  padding: 14px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #00fff7 0%, #2979ff 100%);
+  color: #181c24;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 12px #00fff7a0;
+  letter-spacing: 0.08em;
+  transition: background 0.2s, color 0.2s;
+}
+
+.prompt-form-button:hover {
+  background: linear-gradient(90deg, #2979ff 0%, #00fff7 100%);
+  color: #fff;
+}
+
 .response {
   display: none;
 }

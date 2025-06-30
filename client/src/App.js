@@ -11,7 +11,7 @@ import {
 function OAuthSuccess() {
   const navigate = useNavigate();
   const [uploading, setUploading] = useState(false);
-  const [uploaded, setUploaded] = useState(false);
+  const [uploaded, setVideoUploaded] = useState(false);
   const [videoId, setVideoId] = useState(null);
 
   const handlePostToYouTube = async () => {
@@ -19,7 +19,7 @@ function OAuthSuccess() {
     try {
       const res = await axios.post('/api/upload-video');
       setUploading(false);
-      setUploaded(true);
+      setVideoUploaded(true);
       setVideoId(res.data.videoId);
     } catch (err) {
       setUploading(false);
@@ -33,7 +33,6 @@ function OAuthSuccess() {
       <div className="subtitle">Signed in successfully</div>
       <button
         className="prompt-form-button"
-        style={{ marginTop: '2rem' }}
         onClick={handlePostToYouTube}
         disabled={uploading}
       >
@@ -46,10 +45,7 @@ function OAuthSuccess() {
       )}
       <button
         className="prompt-form-button"
-        style={{ marginTop: '1rem' }}
-        // onClick={() => navigate('/')}
         onClick={() => window.location.href = 'http://localhost:3000/'}
-
       >
         Go to Homepage
       </button>
@@ -146,7 +142,7 @@ function App() {
                   Your browser does not support the video tag.
                 </video>
                 <div style={{ marginTop: '16px' }}>
-                  <button onClick={handlePostToYouTube} disabled={uploading}>
+                  <button className="prompt-form-button" onClick={handlePostToYouTube} disabled={uploading}>
                     {uploading ? 'Uploading to YouTube...' : 'Post to YouTube'}
                   </button>
                 </div>
