@@ -3,7 +3,10 @@ from google.adk.tools import FunctionTool
 import os
 from dotenv import load_dotenv
 from google.genai.types import Schema
-from generator.tts2 import TTSPipeline
+# from generator.tts2 import TTSPipeline  
+from generator.tts3 import TTSPipeline  
+#tts2 for shapes api voice, non character specific voice gen
+#tts3 for fakeyou voice, character specific voice gen
 from typing import List
 
 load_dotenv()
@@ -48,6 +51,11 @@ class TTSTool(FunctionTool):
             """
             tts = TTSPipeline()
             log_line("STATUS: Starting AUDIO generation...")
+
+            #for shapespi
+            # final_audio, timeline = await tts.run(script)
+
+            # for fakeyou
             final_audio, timeline = await tts.run(script)
 
             tts_output = {"audio_path": final_audio, "timestamps": timeline}

@@ -7,8 +7,11 @@ import sys
 
 load_dotenv() 
 
+EMAIL = os.getenv("EMAIL")
+PASSWORD = os.getenv("PASSWORD")
+
 fy = FakeYou()
-fy.login("vedanshbvb", "Ved@fakeyou")
+fy.login(EMAIL, PASSWORD)
 voices = fy.get_voices()
 
 shapes_client = OpenAI(
